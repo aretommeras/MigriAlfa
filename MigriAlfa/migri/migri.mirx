@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Migri xmlns="http://www.migris.no/migri/mirx/">
+    <Project InvisibleLayersByAge="" DepthScalingFactor="2.500000" LayerSpacing="60625.394531" FixedPosLayerAge="Undefined" TimestepTextType="1" TimestepTextFontSize="5" ShowInfoBox="true" ShowLegend="true" ShowNavigationCubeIn3D="true" ShowAxis="false" ShowModelBoundingBox="false" ColorLayersByAge="true" DrawLayerNameLabels="false" DrawGridmapNameLabels="false" Draw2DHeaderText="true" Draw3DCulturalDataIn2D="false" />
+    <Gridmaps Name="Gridmaps" Visible="1" ID="13">
+        <Files Name="Files" Visible="255" ID="14" Filename="" ConversionFactor="1.000000" />
+        <Surfaces Name="Surfaces" Visible="1" ID="15" CompatibilityResampleMode="2" DrawMesh="false" DrawOutline="false" PerCellColors="false" FilterOutOfRangeValues="false" FilterUndefinedValues="false" ContourColorLegend="false" UseProjectWorkspaceResultRange="false" FixedColor="100 170 170" ScaleDepth="true" InvertDepth="false" LayerSpacingIdx="-1" GeometryPropertyID="-1" ScalarPropertyID="-1" />
+    </Gridmaps>
+    <Basemaps Name="Basemaps" Visible="1">
+        <Group Name="Group 1" Visible="true">
+            <Annotations Name="npd_wells_quad35.csv:wellbore_name" ID="2" Filename="Basemaps\npd_wells_quad35.csv" Visible="false" ProjectMode="2" LayerAge="-224.000000" GridmapProjectMode="7" ProjectOntoGridmapID="-1" ShowLabel="true" ShowLabelCovered="true" ShowLabelBackground="true" ShowLabelMarker="true" LabelFontSize="0" LabelTextColor="0 0 0" LabelBackgroundColor="255 255 204" LabelBorderColor="0 0 0" LabelMarkerColor="255 0 255" ShowVerticalLine="false" VerticalLineColor="0 0 0" VerticalLineWidth="2" Column="0" />
+            <Polyline Name="npd_fields_quad35_utm.pol" ID="11" Filename="Basemaps\npd_fields_quad35_utm.pol" Visible="false" ProjectMode="2" LayerAge="-224.000000" GridmapProjectMode="7" ProjectOntoGridmapID="-1" PointScaleFactor="1.000000" LineColor="0 0 0" LineWidth="2" PointFixedColor="0 139 139" PointDrawStyle="0" PointAlignment="0" ForcePolyline="false" />
+            <Polyline Name="npd_licences.pol" ID="15" Filename="Basemaps\npd_licences.pol" Visible="true" ProjectMode="2" LayerAge="-224.000000" GridmapProjectMode="7" ProjectOntoGridmapID="-1" PointScaleFactor="1.000000" LineColor="53 53 53" LineWidth="1" PointFixedColor="0 139 139" PointDrawStyle="0" PointAlignment="0" ForcePolyline="false" />
+        </Group>
+    </Basemaps>
+    <Wells Name="Wells" Visible="1">
+        <Group Name="Group 1" Visible="true" ShowLegend="true">
+            <Polyline DataSource="1" Name="npd_wells_quad35.csv" Filename="Basemaps\npd_wells_quad35.csv" Visible="true" ShowLegend="true" ProjectMode="2" LayerAge="-224.000000" ShowLayerBoundaries="0.000000" LayerBoundariesColorType="1" PointScaleFactor="1.000000" LineColor="255 0 0" LineWidth="0" PointColorType="1" PointFixedColor="90 90 90" PointLocalResultColorName="wellbore_name" PointGlobalResultColor="-1" PointLocalResultColorLegend="-1" WellDataColorMin="1000000015047466200000000000000.000000" WellDataColorMax="-1000000015047466200000000000000.000000" PointDrawStyle="1" PointAlignment="0" ShowVerticalLine="0" VerticalLineColor="0 0 0" VerticalLineWidth="2" />
+            <Polyline DataSource="1" Name="well_35_1-1_las.csv" Filename="Wells\well_35_1-1_las.csv" Visible="false" ShowLegend="true" ProjectMode="4" LayerAge="-224.000000" ShowLayerBoundaries="0.000000" LayerBoundariesColorType="1" PointScaleFactor="5.000000" LineColor="255 0 0" LineWidth="2" PointColorType="2" PointFixedColor="0 139 139" PointLocalResultColorName="Vsh" PointGlobalResultColor="-1" PointLocalResultColorLegend="2" WellDataColorMin="0.000000" WellDataColorMax="1.000000" PointDrawStyle="6" PointAlignment="0" ShowVerticalLine="0" VerticalLineColor="0 0 0" VerticalLineWidth="2" />
+        </Group>
+    </Wells>
+    <Seismic Visible="true" NextSurveyID="0" />
+</Migri>

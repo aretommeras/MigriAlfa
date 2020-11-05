@@ -1,0 +1,51 @@
+Migri.table,0.13,Layers.info,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,M,26,M,28
+Number,Age,Horizon,Faults,Thickness,Lithology,Vsh,Vca,Stratas,Sorting,Source.gas,Source.oil,Pe.K,Pe.P,Pe.slope,Add.depth,Pc.Soh,Min,Max,Depth_max,Thick_max,Mean_Thickness,Thickness,Thick_nodes,Semi.agetopic,Name
+1,0.00,|-mwd.irap|mtmj.irap|select|, , ,3, , ,3, , , , , , , , , , , , , , , , ,mwd
+2,5.00,-mtmi.irap, , ,3, , ,2, , , , , , , , , , , , , , , , ,mtmi
+3,55.00,-mtpa.irap, , ,7, , ,10, , , , , , , , , , , , , , , , ,mtpa
+4,65.00,-mbte.irap, , ,3, , ,2, , , , , , , , , , , , , , , , ,mbte
+5,100.00,-mcr2.irap, , ,3, , ,3, , , , , , , , , , , , , , , , ,LCret
+6,125.00,-mcr1.irap, , ,2 , , ,8, , , , , , , , , , , , , , , , ,IntraLCr
+7,142.00,-mbcr.irap, , ,3, , ,4, , , , , , , , , , , , , , , , ,mbcr
+8,143.00,-m143.irap, , ,4, , ,15, ,Exp.1 {ujur_gas},Exp.2 {ujur_oil}, , , , , , , , , , , , , ,m143
+9,159.00,-mtmj.irap, , ,7, , ,6, , , , , , , , , , , , , , , , ,mtmj
+10,224.00,-m174.irap, , ,3, , ,5, , , , , , , , , , , , , , , , ,Triassic
+11,294.00,-m194.irap, , ,7, , ,1, , , , , , , , , , , , , , , , ,m194
+Migri.table,0.13,Project.info,MigriAlfa-2
+Variable,Value,V2,V3,V4
+Aoi.ij,173,241,1,41693
+Aoi.x,445000.,574000.,750.
+Aoi.y,6726000.,6906000.,750.
+MapType, UTM,  3
+Layers,  11
+Project.geometry,MigriAlfa-2
+Project.db
+History.source,migri-mysources_mirt.csv
+Project.file,W:\backup\Migris\6_Installations\Migri\Migri\MigriProjects\MigriAlfa\migri\MigriAlfa-2.mirp
+Project.median,3
+Project.basin,NorthSea
+Project.comment,Migri demonstration project
+Project.modified,Last updated 17.12.2015
+Project.output,Demo
+Migri.table,0.13,HC.info
+Mix,Group,N,Gas,Oil
+1,  Gas,  1,1,  0
+1,Oil,10,0,1
+Migri.table,0.13,Times.info
+Times,Petromod
+0,1
+2,0
+5,1
+10,   0
+15,   0
+23,   0
+36,   0
+45,   0
+55,   1
+65,   1
+77,   0
+100,  1
+Migri.table,0.13,Source.info
+Nr,Name,Prefix,Subfix,Units,Type
+1,ujur_gas,../dbs/ev_143-142-001_ref,_exp-gas.irap,g/sqcm,Gas
+2,ujur_oil,../dbs/ev_143-142-001_ref,_exp-oil.irap,g/sqcm,Oil

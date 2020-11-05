@@ -1,0 +1,4 @@
+Nr, Name, Prefix, Subfix, Units, Type
+1,ujur_gas,../dbs/ev_143-142-001_ref,_exp-gas.irap,g/sqcm,Gas
+2,ujur_oil,../dbs/ev_143-142-001_ref,_exp-oil.irap,g/sqcm,Oil
+
