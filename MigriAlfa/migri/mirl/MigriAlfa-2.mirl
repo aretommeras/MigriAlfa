@@ -1,0 +1,479 @@
+ Start : 
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlf
+ a-2.mirl 
+Date    20201105 time=142246.251 dll=  201104 user=are  OS=64bit_Windows
+Migri.GUI used      1 HDF=  11006 MigriX=      0
+ MIRP=
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlf
+ a-2.mirp 400 87
+ C:\Program Files\Migris\Migri2\<----cMIGRI_PATH of installation__
+ Project.requires:<
+ Project.dbout><---
+project.name= MigriAlfa-2
+project.dir== 
+project.mir== C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\
+project.file= C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlfa-2.mirp
+project.dbout output/
+ Project.lithoversion><
+ >>>>>increase_allocated_texcel: SYSTEM_INCREASED characters  14429 10000 >char<
+ cdir_migri   ->
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\<-
+ cname_project->MigriAlfa-2<-
+ cdir_project-->../db/<-
+ Project.file::>
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlf
+ a-2.mirp
+ Project.geometry::>MigriAlfa-2
+ Project.area::>
+ Project.strata::>
+ History.source::>migri-mysources_mirt.csv 1
+ Stochastic.casefile::>
+ Project.overpressures::>
+ Project.temperatures::>
+ Project.maturities::>
+ Project.welltops::>
+ Project.rockeval::>
+ Project.hydrocarbons::>
+ Horizons:> 3 2 13
+ Horizon::>|-mwd.irap|mtmj.irap|select|
+ Project.hori::> 2 3 10 >mwd.irap<
+ Project.hori::> 2 12 20 >mtmj.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-mtmi.irap
+ Project.hori::> 1 2 10 >mtmi.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-mtpa.irap
+ Project.hori::> 1 2 10 >mtpa.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-mbte.irap
+ Project.hori::> 1 2 10 >mbte.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-mcr2.irap
+ Project.hori::> 1 2 10 >mcr2.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-mcr1.irap
+ Project.hori::> 1 2 10 >mcr1.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-mbcr.irap
+ Project.hori::> 1 2 10 >mbcr.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-m143.irap
+ Project.hori::> 1 2 10 >m143.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-mtmj.irap
+ Project.hori::> 1 2 10 >mtmj.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-m174.irap
+ Project.hori::> 1 2 10 >m174.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Horizon::>-m194.irap
+ Project.hori::> 1 2 10 >m194.irap<
+ Faults::>
+ FaultsInside::>*empty*
+ Strata==../db//strata.csv
+ Project.hdfinput><
+ Loading.flexlm= 1 Migri:geo-1a 3 392359 11 173 241 1
+ 41693 445000.0 574000.0 750.0000 6726000.
+ 6906000. 750.0000 0.000000 0.000000 0.000000
+ FLEXLM.required== 1
+migri_info_message::Project...:C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlfa-2.mirg<       0       1
+ Loading:>
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlf
+ a-2.mirg<
+ --> Allocating..mode: 2 15329 392359 3 0
+ MAX_OS::: 75 3360000 1 6 48 1.7500000E+10
+ MAX_AOIi: 445000.0 574000.0 750.0000
+ MAX_AOIj: 6726000. 6906000. 750.0000
+ MAX_iAOI: 173 241 1 41693
+ MAX_OS.:: 75 3360000
+ ---------------------------------------------
+--> Allocating max_: geonodes,  max_geo, geo_aoi, geolayers, geopatches, geofault=
+                      42693      393359       42       16        4     8538
+ ---------------------------------------------
+ max_work: 6  Size.geo= 56.64370  MB
+ allocate_geofau.locfault_geo>> 12 8538 0 9 393359
+Allocated geo.arrays:     187     187       0 # arrays=     119
+ Loading geomodel: iaoi_geo         =     173     241       1   41693
+ Loading geomodel:  aoi_geo         =   445000.00   574000.00  750.00
+ Loading geomodel:  aoi_geo         =  6726000.00  6906000.00  750.00
+ Loading geomodel: nodes_layers_geo = 0  nodes_in_geo= 392359
+ Loading geomodel: layers_geo       = 10  Layers_in_geo= 11
+ Loading geomodel: nodepatches_geo  = 3  mirpbasin= 0
+ Loading geomodel: muid             =  0  mirpid= 0
+ Loading geomodel> Migri:geo-1a
+ Compressed .mirg file can now be read Migri:geo-1a
+ Loading Layers:  11 392359 173 241 1 41693 42693
+ Loaded Patches:  11 392359
+ Loading geomodel:  nd= 1008
+ Loading geomodel:  nd= 1008 350000
+ Loading geomodel:  nd= 1008
+ Loading geomodel:  c12=Migri:geo-1a
+ Migri:geo-1a compressed format used in .mirg file loading 392359 393359 T
+ Migri:geo-1a compressed format used in .mirg file loading 392359 393359
+ Loading geomodel: nodes_layers_geo =  356690 11
+ Loading completed
+Loaded    392359 cells in   11 layers &     3 patches. Area size=  173 *  241 =     41693
+ inHiatus_layers: 1 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  1 nodes=     107 average=     -17.157 max=     -50.385
+ inHiatus_layers: 2 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  2 nodes=     107 average=     -17.157 max=     -50.385
+ inHiatus_layers: 3 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  3 nodes=       6 average=      -9.333 max=     -14.385
+ inHiatus_layers: 4 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  4 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 5 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  5 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 6 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  6 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 7 0
+ inHiatus_layers: 8 0
+ inHiatus_layers: 9 0
+ inHiatus_layers: 10 0
+ mirpbasin.mirg.not loaded from mirg: 0
+ mirpbasin_create..iaoi: 173 241 1 41693
+mirpbasin_create..mima:    1  170   10    1  240   10
+ mirpbasin.mirg.created::: 408
+=========================================================
+Geomodel: iaoi_geo         =        173        241          1      41693
+Geomodel:  aoi_geo         =   445000.00   574000.00  750.00
+Geomodel:  aoi_geo         =  6726000.00  6906000.00  750.00
+Geomodel: nodes_layers_geo =   356690
+Geomodel: nodes_in_geo     =   392359
+Geomodel: layers_geo       =       10
+Geomodel: layers_in_geo    =       11
+Geomodel: nodepatches_geo  =        3
+__________________________________________________________
+Geo.0Ma.size=    8096  8 :  392359 11
+ ____________Memory_sizes_geo_load.1 ___________ 10.00000 ___
+--> Allocated max_: geonodes,  max_geo, geo_aoi, geolayers, geopatches=
+                      42693      393359       42       16        4
+               Browse.array1      3.    3.
+           Browse.into_node      18.   24.
+           Browse.node_faulted   18.   46.
+            Geo.nodefault_geo    14.   85.
+ Geo.nodefault_geo  14.16096 85.23500 3540240
+                TOTAL.in.use      2.  128.
+ ____________Memory_sizes_________________________________
+ Project.lithosystem=   0 0 15 1 16
+ 99 134 1 136 99 137
+ 1 139
+ migri_facies_init== 134 0
+ migri_facies_init_layers== 0 0
+ migri_alias_users: 1 0  >something;strange<
+ migri-aliases.csv.load: 999  >Sorry, could not open migri-aliases.csv<
+ migri_facies_update::: 0 0 0 0 1 1
+ migri_facies_init_layers== 0 0
+ # thickness nodes=: 0  loop= 0 0
+ Project.downwards: 0  ><
+Estimated # nodes for Layer.properties=         1 Allocated=     73305        0
+ max_strata_prop= 1154 91 59 11
+ geo.log.layers.allocated.stratalog 0 14388 >Depth,Vscale,Age,
+ strata.csv: Unable to load stratigrigraphy from strata.csv
+ Error.string..:
+ Unable to load strata.csv. Missing Age,Vsh column(s) in Project.strata file<--
+ allocate.scale_strata_geo: 11 18 68
+Loaded.strata:..=  11   0   1   5   8  19  22  26  35  40  56  63  69  12   0   1  69
+migri_info_message::History.source:Loading started<       0       0
+ bin from migri-mysources.mirt 12
+migri_info_message::History.source:Loading ..binary...<       0       0
+ ->> EXP_GEO WILL NOW BE ALLOCATED !! 5
+ Migri.mirt.0.4 contains  2  histories
+Migri.mirt.info:    15    5    6     3790    56850    41693        4      166772   45   62    2    8    2    0    0    0
+ Load.petromod.times#timesteps: 11 5
+times_sim_geo=== 11 -100.000  -77.000  -65.000  -55.000  -45.000  -36.000  -23.000  -15.000  -10.000   -5.000   -2.000   -0.000
+times_exp_geo===  5 -100.000  -77.000  -65.000  -55.000  -45.000
+Load.petromod.Xstep::   1 -100.0000  -77.0000   65.0000    4    0    2  Exp   1   1
+Load.petromod.Xstep::   2 -100.0000  -65.0000   65.0000    4    0    2  Exp   2   2
+Load.petromod.Xstep::   3  -65.0000  -55.0000   55.0000    3    2    3  Exp   3   3
+Load.petromod.Xstep::   4  -55.0000  -45.0000    5.0000    2    3    9  Exp   4   4
+Load.petromod.Xstep::   5  -55.0000  -36.0000    5.0000    2    3    9  Exp   5   5
+Load.petromod.Xstep::   6  -55.0000  -23.0000    5.0000    2    3    9  Exp   6   6
+Load.petromod.Xstep::   7  -55.0000  -15.0000    5.0000    2    3    9  Exp   7   7
+Load.petromod.Xstep::   8  -55.0000  -10.0000    5.0000    2    3    9  Exp   8   8
+Load.petromod.Xstep::   9  -55.0000   -5.0000    5.0000    2    3    9  Exp   9   9
+Load.petromod.Xstep::  10   -5.0000   -2.0000    0.0000    1    9   11  Exp  10  10
+Load.petromod.Xstep::  11   -5.0000   -0.0000    0.0000    1    9   11  Exp  11  11
+ =>>add_mirp from: migri-mysources_mirt.csv<: 1 21 24
+->>Trying to load from: migri-mysources_mirt.csv
+ ->>Tried to load: 
+ Spreadsheet columns & rows loaded:     6     3 Columns:
+Nr,Name,Prefix,Subfix,U
+ nits,Type,
+ ->>Source.info to load:  10 49 51
+ ->>Source.info to load:  0 0 0
+ >>AddTable.Source.info: 1 1
+migri_petromod_add_mirt:     0     2    13ThicknessHistory : ThicknessHistory
+ >>>migri_petromod_add_mirt.EMPTY=-1: 0 2 13 2
+migri_petromod_add_mirt:    12     2    13Source.oil : Source
+migri_petromod_add_mirt:    11     2    13Source.gas : Source
+ cfile_project->
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlf
+ a-2.mirp<-
+ cname_project->MigriAlfa-2<-
+ MUID>><>><< 1
+ MUID=>MigriAlfa-2<>><< 1
+ Group 1  = Gas
+ Group 2  = Oil
+ Project.lithosystem:>1<
+ Project.hydrocarbons:><
+ strata-hc.csv= 999 :: Sorry, could not open strata-hc.csv
+migri_info_message::Wellfile...:C:\Program Files\Migris\Migri2\data/migri-wells.csv<       0       0
+ logtraces -loaded??? 999 >
+ Sorry, could not open C:\Program Files\Migris\Migri2\misc/migri-logtraces.csv<
+ migri_make_compartments.1:: 1 10 T 786720
+ nork_geo.11: 1 1 0 7 0 1
+ nork_geo.11: 1 2 0 7 0 2
+ nork_geo.11: 1 3 0 7 0 3
+ nork_geo.11: 1 4 0 7 0 4
+ nork_geo.11: 1 5 0 7 0 5
+ nork_geo.11: 1 6 0 7 0 6
+ nork_geo.11: 1 7 0 7 0 7
+ nork_geo.11: 1 8 0 7 0 8
+ nork_geo.11: 1 9 0 7 0 9
+ nork_geo.11: 1 10 0 7 0 10
+ nork_geo.11: 1 11 0 7 0 11
+ nork_geo.11: 1 12 0 7 0 12
+ nork_geo.11: 1 13 0 7 0 13
+ nork_geo.11: 1 14 0 7 0 14
+ nork_geo.11: 1 15 0 7 0 15
+ nork_geo.11: 1 16 0 7 0 16
+ nork_geo.11: 1 17 0 7 0 17
+ nork_geo.11: 1 18 0 7 0 18
+ nork_geo.11: 1 19 0 7 0 19
+ migri_make_compartments.1a: 1 1 130870
+ migri_make_compartments.1a: 1 2 5568
+ migri_make_compartments.1a: 1 3 0
+ migri_make_compartments== 1 1 1
+ migri_make_compartments.1a: 2 1 130870
+ migri_make_compartments.1a: 2 2 5568
+ migri_make_compartments.1a: 2 3 0
+ migri_make_compartments== 2 2 1 35670
+ migri_make_compartments.1a: 3 1 130870
+ migri_make_compartments.1a: 3 2 5568
+ migri_make_compartments.1a: 3 3 0
+ migri_make_compartments== 3 3 1 35670 71339
+ migri_make_compartments.1a: 4 1 130870
+ migri_make_compartments.1a: 4 2 5568
+ migri_make_compartments.1a: 4 3 0
+ migri_make_compartments== 4 4 1 35670 71339 107008
+ migri_make_compartments.1a: 5 1 130870
+ migri_make_compartments.1a: 5 2 5568
+ migri_make_compartments.1a: 5 3 0
+ migri_make_compartments== 5 5 1 35670 71339 107008
+ 142677
+ migri_make_compartments.1a: 6 1 130870
+ migri_make_compartments.1a: 6 2 5568
+ migri_make_compartments.1a: 6 3 0
+ migri_make_compartments== 6 6 1 35670 71339 107008
+ 142677 178346
+ migri_make_compartments.1a: 7 1 130870
+ migri_make_compartments.1a: 7 2 5568
+ migri_make_compartments.1a: 7 3 0
+ migri_make_compartments== 7 7 1 35670 71339 107008
+ 142677 178346 214015
+ migri_make_compartments.1a: 8 1 130870
+ migri_make_compartments.1a: 8 2 5568
+ migri_make_compartments.1a: 8 3 0
+ migri_make_compartments== 8 8 1 35670 71339 107008
+ 142677 178346 214015 249684
+ migri_make_compartments.1a: 9 1 130870
+ migri_make_compartments.1a: 9 2 5568
+ migri_make_compartments.1a: 9 3 0
+ migri_make_compartments== 9 9 1 35670 71339 107008
+ 142677 178346 214015 249684 285353
+ migri_make_compartments.1a: 10 1 130870
+ migri_make_compartments.1a: 10 2 5568
+ migri_make_compartments.1a: 10 3 0
+ migri_make_compartments== 10 10 1 35670 71339 107008
+ 142677 178346 214015 249684 285353 321022
+ migri_make_compartments.2:: 356690 10 2 392359
+ migri_make_compartments.3A: 356690 10 392359 786720 187 143
+ migri_make_compartments.3A1: 1 10 3 1 35669
+ migri_make_compartments.3A1: 2 10 3 35670 71338
+ migri_make_compartments.3A1: 3 10 3 71339 107007
+ migri_make_compartments.3A1: 4 10 3 107008 142676
+ migri_make_compartments.3A1: 5 10 3 142677 178345
+ migri_make_compartments.3A1: 6 10 3 178346 214014
+ migri_make_compartments.3A1: 7 10 3 214015 249683
+ migri_make_compartments.3A1: 8 10 3 249684 285352
+ migri_make_compartments.3A1: 9 10 3 285353 321021
+ migri_make_compartments.3A1: 10 10 3 321022 356690
+ migri_make_compartments.3a:: 10
+ migri_make_compartments.3b:: 10 3 10
+ migri_make_compartments.3c:: 356690 10
+ migri_make_compartments.4:: 356690 10
+COMParted.nant::   330    10     1    10
+COMParted.nant.2   500
+COMParted.aquifiers::   356690   356690    70893
+COMParted.max_into::     0   100     0     1     1
+ shows: 10
+show::     1     1     0     0     0     0     0     0     0     0
+show::     2     1     0     0     0     0     0     0     0     0
+show::     3     1     0     0     0     0     0     0     0     0
+show::     4     1     0     0     0     0     0     0     0     0
+show::     5     1     0     0     0     0     0     0     0     0
+show::     6     1     0     0     0     0     0     0     0     0
+show::     7     1     0     0     0     0     0     0     0     0
+show::     8     1     0     0     0     0     0     0     0     0
+show::     9     1     0     0     0     0     0     0     0     0
+ shown: 10
+COMParted::   1       1       1       0   19617   35669       1   35669       0       0       0       0       0       1       1       0       0       1
+COMParted::   2       2       1       0   55286   35669   35670   71338       0       0       0       0       0   35670       1       0       0       2
+COMParted::   3       3       1       0   90955   35669   71339  107007       0       0       0       0       1   71339   35609       0       0       3
+COMParted::   4       4       1       0  126624   35669  107008  142676       0       0       0       0       0  107008   35610       0       0       4
+COMParted::   5       5       1       0  162293   35669  142677  178345       0       0       0       0       0  142677   35610       0       0       5
+COMParted::   6       6       1       0  197962   35669  178346  214014       0       0       0       0       0  178346   35610       0       0       6
+COMParted::   7       7       1       0  233631   35669  214015  249683       0       0       0       0       0  214015   35610       0       0       7
+COMParted::   8       8       1       0  269300   35669  249684  285352       0       0       0       0       0  249684   35610       0       0       8
+COMParted::   9       9       1       0  304969   35669  285353  321021       0       0       0       0       1  285353   70892       0       0       9
+COMParted::  10      10       1       0  340638   35669  321022  356690       0       0       0       0       0  321022   70893       0       0      10
+ Output.loaded: 0
+ =>>add_mirp from: LithoFacies<: 2 8 11
+->>Trying to load from: C:\Program Files\Migris\Migri2\misc/LithoFacies.mirp
+maxes::     215      51
+ =>>add_mirp from: Browsetopics<: 1 9 12
+->>Trying to load from: C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\Browsetopics.mirp
+=>>Unable to load from: C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\Browsetopics.mirp
+ ended>>ended< 1 66
+ migri_lithofacies_missing.1: 64 65 3 64 65 4 64 65
+ Project.strata.CHECK:: 0 0 ><
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/migri-wells
+ .csv< -1 0 0 0
+migri_gui_timesteps    1  -1: -77.Ma           -77.000000000 Duration=   23.000000000
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+ migri_gui_get_hc_groups: 0 1 2 1 40 38 1 400
+ Group.name= 1  Gas N= 1  mw= 16.04300
+ Group.name= 2  Oil N= 10  mw= 142.2850
+migri_gui_timesteps    1  -1: -77.Ma           -77.000000000 Duration=   23.000000000
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+migri_gui_timesteps   12  11: TWT                0.000000000 Duration=    0.000000000
+migri_gui_timesteps   13  12: Age                0.000000000 Duration=    0.000000000
+ migri-kinetics.company:::: 15300 5 420 0  >
+ C:\Users\areto/CompanyData/kinetics/migri-kinetics<
+ migri-kinetics.company==:: 689 420 11 16
+ migri-kinetics.user.malloc: 15300 689 2275 6 2550
+ migri-kinetics.user:::: 15300 5 420 -1
+ migri-kinetics.userstart: 0 11 16 0 689 16
+ kinetics: # reaction groups=  16  # hc groups=  4
+ kinetics: # reaction hc's  =    2   2   2   2   2   2   2   2   2   2   2   4   4   4   4   4
+simulation.type> Migration<><   2   1   1
+ allocate_polygons= 400000 50000
+ migri_guf_size_xyzt== 19902 3 2 0 0 0 0 0 0  z1= 3.2000000E+38 >
+ Basemaps\npd_licences.pol
+CPU       59              cut_xyz:->        4         0 <---<<<        3.31      287.80
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+ migri_guf_command:: 1 6 10 0 =note 124 2; 10
+ im note 124 2 0
+gui_cut_timestep=        1      1     34      0      0      0 100000  0
+ migri_guf_command:: 1 6 10 0 =note 124 0; 10
+ im note 124 0 0
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/calibration
+ /wellsets.csv< -1 0 0 0
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/migri-wells
+ .csv< -1 0 0 0
+ showgui.hack::>showgui correlation<:: 0 0
+ migri_gui_save_grid::
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/m180-constr
+ ucted.irap.gri<< 1
+ migri_guf_command:: 1 4 0 0 =
+ cd C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/;
+ 71
+ migri_guf_command:: 1 4 0 0 =
+ cd C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\db\;
+ 71
+ gui_save_mirp: 0 >
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp<remesh geometry? 5 0 -1
+ migri_cut_storage.Deleting any cut profiles in memory= 0
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ HDF.close: 0
+ migri-info.html closed
+ Migri_guf_close== 1 0  MigriAlfa-2 0
+ migri_gui_close.return== 1
+ migri_cut_storage.Deleting any cut profiles in memory= 0
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ HDF.close: -1
+ migri-info.html closed
+ migri_alias_users: -1 0  >Easting<
+ Migri_guf_close== 1 0  MigriAlfa-2 -1
+ migri_gui_close.return== 1
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+ migri_guf_command:: 1 6 10 0 =note 124 2; 10
+ im note 124 2 0
+gui_cut_timestep=        1      1     34      0      0      0 100000  0
+ migri_guf_command:: 1 6 10 0 =note 124 0; 10
+ im note 124 0 0
+ migri_guf_new:::
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp< 5
+ guf_new:cpath_file>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp<
+ Migri_geo_new-->
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp<--- 1
+ cdir_migri=
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/
+  :: check Petromod???)
+ cdir_migri=
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/
+  ::  check HDF5.Petromod.and.geometry-creation
+ Migri_geo_new.mirg.create-->.mirp<<>>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp< 83 87 0
+ Continues 
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirl at 20201105 time=142459.484

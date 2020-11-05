@@ -1,0 +1,150 @@
+Parameter,Layer,Value,Command,Daytime
+LoadMirp,9999999,MigriAlfa-2,win.201104,201105.1422+1
+Project.info,22, ,ins,201105.1424+1
+Project.info,22,Project.autosave,ins,201105.1424+1
+Project.info,22,Project.autosave,old,201105.1424+1
+Project.info,22, ,old,201105.1424+1
+Project.info,22,autosave.mirm,upd,201105.1424+1
+Layers.info,10, ,ins,201105.1424+1
+Layers.info,1,Age,old,201105.1424+1
+Layers.info,1,0.00,old,201105.1424+1
+Layers.info,1,0.000,upd,201105.1424+1
+Layers.info,2,Age,old,201105.1424+1
+Layers.info,2,5.00,old,201105.1424+1
+Layers.info,2,5.000,upd,201105.1424+1
+Layers.info,3,Age,old,201105.1424+1
+Layers.info,3,55.00,old,201105.1424+1
+Layers.info,3,55.000,upd,201105.1424+1
+Layers.info,4,Age,old,201105.1424+1
+Layers.info,4,65.00,old,201105.1424+1
+Layers.info,4,65.000,upd,201105.1424+1
+Layers.info,5,Age,old,201105.1424+1
+Layers.info,5,100.00,old,201105.1424+1
+Layers.info,5,100.000,upd,201105.1424+1
+Layers.info,6,Age,old,201105.1424+1
+Layers.info,6,125.00,old,201105.1424+1
+Layers.info,6,125.000,upd,201105.1424+1
+Layers.info,7,Age,old,201105.1424+1
+Layers.info,7,142.00,old,201105.1424+1
+Layers.info,7,142.000,upd,201105.1424+1
+Layers.info,8,Age,old,201105.1424+1
+Layers.info,8,143.00,old,201105.1424+1
+Layers.info,8,143.000,upd,201105.1424+1
+Layers.info,9,Age,old,201105.1424+1
+Layers.info,9,159.00,old,201105.1424+1
+Layers.info,9,159.000,upd,201105.1424+1
+Layers.info,10,10,ins,201105.1424+1
+Layers.info,10,Age,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,191.500,upd,201105.1424+1
+Layers.info,10,Name,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,m180,upd,201105.1424+1
+Layers.info,10,Horizon,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,-m180-constructed.irap.gri,upd,201105.1424+1
+Layers.info,10,Lithology,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,3,upd,201105.1424+1
+Layers.info,10,Stratas,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,4,upd,201105.1424+1
+Layers.info,10,Source.active,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,0,upd,201105.1424+1
+Layers.info,11,Number,old,201105.1424+1
+Layers.info,11,10,old,201105.1424+1
+Layers.info,11,11,upd,201105.1424+1
+Layers.info,11,Age,old,201105.1424+1
+Layers.info,11,224.00,old,201105.1424+1
+Layers.info,11,224.000,upd,201105.1424+1
+Layers.info,12,Number,old,201105.1424+1
+Layers.info,12,11,old,201105.1424+1
+Layers.info,12,12,upd,201105.1424+1
+Layers.info,12,Age,old,201105.1424+1
+Layers.info,12,294.00,old,201105.1424+1
+Layers.info,12,294.000,upd,201105.1424+1
+Project.info,23, ,ins,201105.1424+1
+Project.info,23,Project.Horizon.unit,ins,201105.1424+1
+Project.info,23,Project.Horizon.unit,old,201105.1424+1
+Project.info,23, ,old,201105.1424+1
+Project.info,23,m,upd,201105.1424+1
+SaveMirp,966111439,MigriAlfa-3, ,201105.1424+1
+Parameter,Layer,Value,Command,Daytime
+LoadMirp,9999999,MigriAlfa-2,win.201104,201105.1422+1
+Project.info,22, ,ins,201105.1424+1
+Project.info,22,Project.autosave,ins,201105.1424+1
+Project.info,22,Project.autosave,old,201105.1424+1
+Project.info,22, ,old,201105.1424+1
+Project.info,22,autosave.mirm,upd,201105.1424+1
+Layers.info,10, ,ins,201105.1424+1
+Layers.info,1,Age,old,201105.1424+1
+Layers.info,1,0.00,old,201105.1424+1
+Layers.info,1,0.000,upd,201105.1424+1
+Layers.info,2,Age,old,201105.1424+1
+Layers.info,2,5.00,old,201105.1424+1
+Layers.info,2,5.000,upd,201105.1424+1
+Layers.info,3,Age,old,201105.1424+1
+Layers.info,3,55.00,old,201105.1424+1
+Layers.info,3,55.000,upd,201105.1424+1
+Layers.info,4,Age,old,201105.1424+1
+Layers.info,4,65.00,old,201105.1424+1
+Layers.info,4,65.000,upd,201105.1424+1
+Layers.info,5,Age,old,201105.1424+1
+Layers.info,5,100.00,old,201105.1424+1
+Layers.info,5,100.000,upd,201105.1424+1
+Layers.info,6,Age,old,201105.1424+1
+Layers.info,6,125.00,old,201105.1424+1
+Layers.info,6,125.000,upd,201105.1424+1
+Layers.info,7,Age,old,201105.1424+1
+Layers.info,7,142.00,old,201105.1424+1
+Layers.info,7,142.000,upd,201105.1424+1
+Layers.info,8,Age,old,201105.1424+1
+Layers.info,8,143.00,old,201105.1424+1
+Layers.info,8,143.000,upd,201105.1424+1
+Layers.info,9,Age,old,201105.1424+1
+Layers.info,9,159.00,old,201105.1424+1
+Layers.info,9,159.000,upd,201105.1424+1
+Layers.info,10,10,ins,201105.1424+1
+Layers.info,10,Age,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,191.500,upd,201105.1424+1
+Layers.info,10,Name,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,m180,upd,201105.1424+1
+Layers.info,10,Horizon,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,-m180-constructed.irap.gri,upd,201105.1424+1
+Layers.info,10,Lithology,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,3,upd,201105.1424+1
+Layers.info,10,Stratas,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,4,upd,201105.1424+1
+Layers.info,10,Source.active,old,201105.1424+1
+Layers.info,10, ,old,201105.1424+1
+Layers.info,10,0,upd,201105.1424+1
+Layers.info,11,Number,old,201105.1424+1
+Layers.info,11,10,old,201105.1424+1
+Layers.info,11,11,upd,201105.1424+1
+Layers.info,11,Age,old,201105.1424+1
+Layers.info,11,224.00,old,201105.1424+1
+Layers.info,11,224.000,upd,201105.1424+1
+Layers.info,12,Number,old,201105.1424+1
+Layers.info,12,11,old,201105.1424+1
+Layers.info,12,12,upd,201105.1424+1
+Layers.info,12,Age,old,201105.1424+1
+Layers.info,12,294.00,old,201105.1424+1
+Layers.info,12,294.000,upd,201105.1424+1
+Project.info,23, ,ins,201105.1424+1
+Project.info,23,Project.Horizon.unit,ins,201105.1424+1
+Project.info,23,Project.Horizon.unit,old,201105.1424+1
+Project.info,23, ,old,201105.1424+1
+Project.info,23,m,upd,201105.1424+1
+SaveMirp,966111439,MigriAlfa-3, ,201105.1424+1
+LoadNewMirp,966111439,MigriAlfa-3,win.201104,201105.1424+1
+Geometry,2,MigriAlfa-3, ,201105.1424+1
+LoadMirp,966111439,MigriAlfa-3,win.201104,201105.1425+1
+Project.T.adjust,1, ,old,201105.1428+1
+Project.T.adjust,1,1.4,use,201105.1428+1
+SaveMirp,591832329,MigriAlfa-3, ,201105.1428+1

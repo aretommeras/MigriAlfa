@@ -1,0 +1,1307 @@
+ Start : 
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirl 
+Date    20201105 time=142459.484 dll=  201104 user=are  OS=64bit_Windows
+ HDF.gzip:: filter available. 0
+Migri.GUI used      1 HDF=  11006 MigriX=      0
+CPU       64     project.loading::->        0        -1 <---<<<       17.47      305.70
+ Migri_geo_new.pwd.->
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\db\
+ MIRP=
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp 400 87
+ C:\Program Files\Migris\Migri2\<----cMIGRI_PATH of installation__
+ Project.requires:<
+ Project.name.rename>MigriAlfa-2>>MigriAlfa-3
+ >>>>>increase_allocated_texcel: SYSTEM_INCREASED characters  23318 10000 >char<
+ Project.dbout><---
+project.name= MigriAlfa-3
+project.dir== 
+project.mir== C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/
+project.file= C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirp
+project.dbout output/
+ Project.lithoversion><
+ Migri_geo_new.mirp.1-->3<--- 4
+  cdir_project:../db/
+ cname_project:MigriAlfa-3
+  cdir_migri  :
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/
+ Migri_geo_new.pwd-->
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\db\
+ migri_alias_users: 1 0  >something;strange<
+ migri-aliases.csv.load: 999  >Sorry, could not open migri-aliases.csv<
+ Migri_geo_new.mirp.2a--><-- 0 0
+ Migri_geo_new.mirp.2-->|-mwd.irap|mtmj.irap|select| 1 1
+ Migri_geo_new.mirp.3--><--- 1  c6=< 1 1
+progress-->       0     701       1       0       9    305.78125  51899.57422
+ Layers.size: 12 2 14 0 0
+ OS.size= 0 150000000 1 150000000 1100000 13
+ MigriX.geometry:::: 0
+ Project.sampling= 1 173 241 1 1
+ aoi::: 173 241 1 1 445000.0 574000.0 750.0000 6726000.
+ 6906000. 750.0000 0.000000 0.000000 0.000000
+ migri_patches.patches:: 173 241 41693 41693 700000 700000
+migri_patches.patches:=    1 Size=  3000  3000
+ >>>>>into_max.23: 0 173 241 1 1
+progress-->       0     702       2       1      10    305.78125  51899.57812
+ --> Allocating Into_into:: 0 393359
+ New.Geomodel.aoi:: 173 241 173 241 0 0
+ Allocating.nodess= 35669 41693 0 0 0
+ Allocating.nodess= 35669 41693
+Allocating.nodess=   1.60      41693      41693         12      42693     800505
+ --> Allocating..mode: 0 800506 800505 41693 12
+ malloc.max_geofault: 160101 0
+ MAX_OS::: 153 3360000 1 6 48 1.7500000E+10
+ MAX_AOIi: 445000.0 574000.0 750.0000
+ MAX_AOIj: 6726000. 6906000. 750.0000
+ MAX_iAOI: 173 241 1 41693
+ MAX_OS.:: 153 3360000
+ ---------------------------------------------
+--> Allocating max_: geonodes,  max_geo, geo_aoi, geolayers, geopatches, geofault=
+                     800506      801506      800       22       60   100000
+ ---------------------------------------------
+ max_work: 6  Size.geo= 115.4169  MB
+ allocate_geofau.locfault_geo>> 12 100000 3 9 801506
+Allocated geo.arrays:     384     381       3 # arrays=     119
+ Geomodel.new:iaoi_geo= 173 241 1 41693
+ System size= 173 * 241 =    41693 # patches=   1                                                                                                                                                                                                                                                                                                                                                                
+Geomodel: finished
+migri_info_message::Geometry...:System size= 173 * 241 =    41693 # patches=   1<       0       1
+ LOADING FOR GEOLAYERS:  0  System size= 173 * 241 =    41693 # patches=   1
+ LOADING ALL GEOLAYERS: 
+ Addina Layer #  0  for layer  1  unitHorizon= 1.000000
+ >>>>>into_max.42: 0 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ --> Allocating Into_into:: 393359 801506
+ Adding Layer #  1  for layer  1
+ Adding Layer #  1  from node  1  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+ ____________Memory_sizes_new.project.1.adding.layer ___________ 10.00000 ___
+--> Allocated max_: geonodes,  max_geo, geo_aoi, geolayers, geopatches=
+                     800506      801506      800       22       60
+               Browse.array1      3.    3.
+           Browse.into_node      18.   24.
+           Browse.node_faulted   18.   46.
+                 Geo.into_geo    19.   79.
+            Geo.nodefault_geo    29.  111.
+ Geo.nodefault_geo  28.85425 111.3564 7213563
+                 Geo.xpos_geo    13.  145.
+                 Geo.ypos_geo    13.  158.
+                 Geo.npos_geo    13.  171.
+                 Geo.work_geo    19.  196.
+                TOTAL.in.use      3.  209.
+ ____________Memory_sizes_________________________________
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  1  from node  1  to 35669 41693
+Geomodel: # nodes=    35669 # layers_in_geo=   1 of        12 Progress:   8
+progress-->       0     703       8       2      11    305.84375  51899.65234
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 1 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  2  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  2  for layer  2
+ Adding Layer #  2  from node  35670  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  2  from node  35670  to 71338 41693
+Geomodel: # nodes=    71338 # layers_in_geo=   2 of        12 Progress:  16
+progress-->       0     703      16       8      12    305.85938  51899.66406
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 2 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  3  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  3  for layer  3
+ Adding Layer #  3  from node  71339  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  3  from node  71339  to 107007 41693
+Geomodel: # nodes=   107007 # layers_in_geo=   3 of        12 Progress:  25
+progress-->       0     703      25      16      13    305.87500  51899.67578
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 3 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  4  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  4  for layer  4
+ Adding Layer #  4  from node  107008  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  4  from node  107008  to 142676 41693
+Geomodel: # nodes=   142676 # layers_in_geo=   4 of        12 Progress:  33
+progress-->       0     703      33      25      14    305.89062  51899.69141
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 4 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  5  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  5  for layer  5
+ Adding Layer #  5  from node  142677  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  5  from node  142677  to 178345 41693
+Geomodel: # nodes=   178345 # layers_in_geo=   5 of        12 Progress:  41
+progress-->       0     703      41      33      15    305.89062  51899.70312
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 5 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  6  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  6  for layer  6
+ Adding Layer #  6  from node  178346  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  6  from node  178346  to 214014 41693
+Geomodel: # nodes=   214014 # layers_in_geo=   6 of        12 Progress:  49
+progress-->       0     703      49      41      16    305.90625  51899.71484
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 6 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  7  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  7  for layer  7
+ Adding Layer #  7  from node  214015  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  7  from node  214015  to 249683 41693
+Geomodel: # nodes=   249683 # layers_in_geo=   7 of        12 Progress:  57
+progress-->       0     703      57      49      17    305.92188  51899.73047
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 7 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  8  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  8  for layer  8
+ Adding Layer #  8  from node  249684  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  8  from node  249684  to 285352 41693
+Geomodel: # nodes=   285352 # layers_in_geo=   8 of        12 Progress:  65
+progress-->       0     703      65      57      18    305.93750  51899.74219
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 8 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  9  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  9  for layer  9
+ Adding Layer #  9  from node  285353  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  9  from node  285353  to 321021 41693
+Geomodel: # nodes=   321021 # layers_in_geo=   9 of        12 Progress:  74
+progress-->       0     703      74      65      19    305.95312  51899.76172
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 9 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  10  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  10  for layer  10
+ Adding Layer #  10  from node  321022  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  10  from node  321022  to 356690 41693
+Geomodel: # nodes=   356690 # layers_in_geo=  10 of        12 Progress:  82
+progress-->       0     703      82      74      20    305.96875  51899.77344
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 10 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  11  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  11  for layer  11
+ Adding Layer #  11  from node  356691  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  11  from node  356691  to 392359 41693
+Geomodel: # nodes=   392359 # layers_in_geo=  11 of        12 Progress:  90
+progress-->       0     703      90      82      21    305.98438  51899.79297
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 11 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+ Addina Layer #  0  for layer  12  unitHorizon= 1.000000
+ >>>>>into_max.42: 41693 173 241 1 1
+ >>>>>into_max.1: 41693 173 241 1 1 700000 1120000 1120000 1120000 1120000
+ >>>>>into_max.1.return: 41693
+ max_cells_array1= 700000 1120000 700000 41693 0
+ Adding Layer #  12  for layer  12
+ Adding Layer #  12  from node  392360  aoi: 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 iaoi= 173 241 1 41693 35669 35669 173
+                    aoi: 445000.0 574000.0 750.0000
+ 6726000. 6906000. 750.0000 0.000000 0.000000
+ 0.000000
+                   iaoi: 173 241 1 41693 35669 35669 173
+AOI_AOI::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+AOI_dou::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000
+AOI_GEO::   445000.0000   574000.0000      750.0000  6726000.0000  6906000.0000      750.0000   173   241     1     41693
+ Added  Layer #  12  from node  392360  to 428028 41693
+Geomodel: # nodes=   428028 # layers_in_geo=  12 of        12 Progress:  98
+progress-->       0     703      98      90      22    306.00000  51899.80859
+Geomodel: finished
+ migri_qa_negative_node_faulted(node_faulted.b)= 0 0 41693
+ migri_qa_negative_node_faulted(node_faulted.c)= 0 0 41693
+ fault.plane.make from japi::::::::::::::::::::::::::::::::: 0 12 41693
+ 0 4000000
+ migri_qa_negative_node_faulted(node_faulted.d)= 0 0 41693
+progress-->       0     704      99      98      23    306.00000  51899.80859
+migri_info_message::Geometry...:<       1       1
+ LOADed  ALL GEOLAYERS:  0  
+ migri_create_geo.11= 12 428028 173 241
+ migri.tie.layer 2 0 0 0
+ misses in layer 2  = 0 0 35669
+Connected    35669 of    35669 after layer    2 Multi=       0 Missez=       0
+ migri.tie.layer 3 35669 0 41694
+ misses in layer 3  = 0 0 71338
+Connected    71338 of    71338 after layer    3 Multi=       0 Missez=       0
+ migri.tie.layer 4 71338 0 41694
+ Migri.tie.fast: 100000 99999 100000
+ misses in layer 4  = 0 0 107007
+Connected   107007 of   107007 after layer    4 Multi=       0 Missez=       0
+ migri.tie.layer 5 107007 0 41694
+ misses in layer 5  = 0 0 142676
+Connected   142676 of   142676 after layer    5 Multi=       0 Missez=       0
+ migri.tie.layer 6 142676 0 41694
+ misses in layer 6  = 0 0 178345
+Connected   178345 of   178345 after layer    6 Multi=       0 Missez=       0
+ migri.tie.layer 7 178345 0 41694
+ Migri.tie.fast: 200000 199999 200000
+ misses in layer 7  = 0 0 214014
+Connected   214014 of   214014 after layer    7 Multi=       0 Missez=       0
+ migri.tie.layer 8 214014 0 41694
+ misses in layer 8  = 0 0 249683
+Connected   249683 of   249683 after layer    8 Multi=       0 Missez=       0
+ migri.tie.layer 9 249683 0 41694
+ misses in layer 9  = 0 0 285352
+Connected   285352 of   285352 after layer    9 Multi=       0 Missez=       0
+ migri.tie.layer 10 285352 0 41694
+ Migri.tie.fast: 300000 299999 300000
+ misses in layer 10  = 0 0 321021
+Connected   321021 of   321021 after layer   10 Multi=       0 Missez=       0
+ migri.tie.layer 11 321021 0 41694
+ misses in layer 11  = 0 0 356690
+Connected   356690 of   356690 after layer   11 Multi=       0 Missez=       0
+ migri.tie.layer 12 356690 0 41694
+ misses in layer 12  = 0 0 392359
+Connected   392359 of   392359 after layer   12 Multi=       0 Missez=       0
+Connected   392359 of   392359 Multi=       0 # misses=        0        0        0
+Geomodel: finished
+migri_info_message::Geometry...:Connected   392359 of   392359 Multi=       0 # misses=        0        0        0<       1       1
+ Tied   ALL GEOLAYERS:  0  
+ Connected   392359 of   392359 Multi=       0 # misses=     
+ nant_zero.iaoi:: 173 241 1 41693
+Connected        0 of        0 after layer    2 Multi=       0
+Connected        0 of        0 after layer    3 Multi=       0
+Connected        0 of        0 after layer    4 Multi=       0
+Connected        0 of        0 after layer    5 Multi=       0
+Connected        0 of        0 after layer    6 Multi=       0
+Connected        0 of        0 after layer    7 Multi=       0
+Connected        0 of        0 after layer    8 Multi=       0
+Connected        0 of        0 after layer    9 Multi=       0
+Connected        0 of        0 after layer   10 Multi=       0
+Connected        0 of        0 after layer   11 Multi=       0
+ Migri.tie.fast: 400000 399999 400000
+ nant_zero= 35669  in layer 12  misses= 0 0 35669
+Connected    35669 of    35669 after layer   12 Multi=       0
+ migri_untie_cells_border= 0
+ MIRGFILE::
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirg
+migri_info_message::Geometry...:C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirg<       1       1
+ Project.mirgeom.6: 2
+ Migri:geo-1b 1 428028 12 173 241 1 41693 445000.0 574000.0
+ 750.0000 6726000. 6906000. 750.0000 0.000000
+ 0.000000 0.000000 445000.0 574000.0 750.0000 6726000.
+ 6906000. 750.0000
+ mirpbasin_create..iaoi: 173 241 1 41693
+mirpbasin_create..mima:    1  170   10    1  240   10
+ mirpbasin.mirg.saving.step1:: 408 1 170 10
+ 1 240 10 --> 17 24 1 408
+ meager_geo::. 428029 9 1 12 1 0 2
+ migri_geo_writi: 1 41693 538
+ migri_geo_writi: 2 428028 3228
+ migri_geo_writ1: 3 1712112 59
+ migri_geo_writ1: 4 1712112 58
+ migri_geo_writi: 7 2568168 19469
+ migri_geo_writr: 1008 428028 1 428028 -1.4928100E+09
+ migri_geo_writf: 9 856056 6120 1120
+ migri_geo_writf: 5 1712112 12912 2912
+ migri_geo_writf: 6 1712112 11568 1568
+ migri_geo_writi: 10 428029 15
+ migri_geo_writi: 11 9 1
+ migri_geo_writi: 12 12 1
+ ___meager_geo:: 1 428029
+ nodefault_geo:: 9 1
+ _locfault_geo:: 12 1 12
+ migri_geo_writl: 8 428028 15
+ mirpbasin.mirg.saving.step2:: 408 408 1 170 10
+ 1 240 10 --> 17 24 1 408
+ migri_geo_writi: 13 6 4
+ writiii---: 2014 3 0 1 4
+ writIII: 2014 3 4 0 1 1 2 17 24 1
+ migri_geo_writi: 14 4 3
+ migri_geo_writf: 15 9 9 9
+ migri_geo_writf: 16 408 408 408
+ mirpbasin.mirg.saved:: 408 408 1 170 10 1
+ 240 10 --> 17 24 1 408
+ mirpbasin.mirg.saved::--m> 1 170 10 1
+ 240 10
+ mirpbasin.mirg.saved::--i> 17 24 1 408
+ mirpbasin.mirg.saved::--a> 445000.0 571750.0 7500.000
+ 6726000. 6905250. 7500.000 -12608.70 -1161.950
+ 114.4675
+Geomodel: finished
+ migri_update_project_mirg:  heading  1 2 16 45
+ migri_update_project_mirg:::MigriAlfa-3 1 2 16 45
+ migri_cut_storage.Deleting any cut profiles in memory= 0
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ HDF.close: 0
+ migri-info.html closed
+ Migri_guf_close== 1 0  MigriAlfa-3 0
+progress-->       0     705     100      99      24    306.06250  51899.89844
+  cdir_project=../db/
+ cname_project=MigriAlfa-3
+  cdir_migri  =
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/
+  cpwd_project =
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\db\
+ Migri_geo_new.end= 1 0
+ migri_guf_new.Create:
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp
+ migri_guf_new.Create.geomtry : 1 2 1
+ migri_guf_new= -10053 5
+ HDF.gzip:: filter available. 0
+ Start : 
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirl 
+Date    20201105 time=142459.901 dll=  201104 user=are  OS=64bit_Windows
+Migri.GUI used      1 HDF=  11006 MigriX=      0
+ MIRP=
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp 400 87
+ C:\Program Files\Migris\Migri2\<----cMIGRI_PATH of installation__
+ Project.requires:<
+ Project.dbout><---
+project.name= MigriAlfa-3
+project.dir== ..\db\
+project.mir== C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/
+project.file= C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirp
+project.dbout output/
+ Project.lithoversion><
+ cdir_migri   ->
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/<-
+ cname_project->MigriAlfa-3<-
+ cdir_project-->..\db\<-
+ Strata==..\db\/strata.csv
+ Project.hdfinput><
+ Loading.flexlm= 2 Migri:geo-1b 1 428028 12 173 241 1
+ 41693 445000.0 574000.0 750.0000 6726000.
+ 6906000. 750.0000 0.000000 0.000000 0.000000
+ FLEXLM.required== 2
+migri_info_message::Project...:C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirg<       0       1
+ Loading:>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirg<
+ --> Allocating..mode: 2 800506 428028 1 0
+ MAX_OS::: 82 3360000 1 6 48 1.7500000E+10
+ MAX_AOIi: 445000.0 574000.0 750.0000
+ MAX_AOIj: 6726000. 6906000. 750.0000
+ MAX_iAOI: 173 241 1 41693
+ MAX_OS.:: 82 3360000
+ ---------------------------------------------
+--> Allocating max_: geonodes,  max_geo, geo_aoi, geolayers, geopatches, geofault=
+                      42693      429028       42       17        2     8538
+ ---------------------------------------------
+ max_work: 6  Size.geo= 61.78003  MB
+ allocate_geofau.locfault_geo>> 12 8538 0 9 429028
+Allocated geo.arrays:     204     204       0 # arrays=     119
+ Migri:geo-1b.load.mirpid.muid.mirpbasin: 966111439 966111439 408
+ --> allocate_nodefault_geo: 429029 0 9 1 0
+ allocate_geofau.locfault_geo-> 12 12  <-> 0 : 0
+ Loading geomodel: iaoi_geo         =     173     241       1   41693
+ Loading geomodel:  aoi_geo         =   445000.00   574000.00  750.00
+ Loading geomodel:  aoi_geo         =  6726000.00  6906000.00  750.00
+ Loading geomodel: nodes_layers_geo = 0  nodes_in_geo= 428028
+ Loading geomodel: layers_geo       = 11  Layers_in_geo= 12
+ Loading geomodel: nodepatches_geo  = 1  mirpbasin= 408
+ Loading geomodel: muid             =  966111439  mirpid= 966111439
+ Loading geomodel> Migri:geo-1b
+ Compressed .mirg file can now be read Migri:geo-1b
+ Loading Layers:  12 428028 173 241 1 41693 42693
+ Loaded mirpbasin:  408
+ Loaded Patches:  12 428028
+ Loading geomodel:  nodefault_geo   = 428029 9 1
+ Loading geomodel:  nodefault_geo   loaded 428029 9 9 1
+ Loading geomodel:  locfault_geo    ...... 0 12 1
+ Loading geomodel:..locfault_geo....... 12 12
+ Loading geomodel:  locfault_geo    loaded 0 12 12 1
+ migri_list_meager_geo:: 1 10 0
+ Loading geomodel:  nd= 1008
+ Loading geomodel:  nd= 1008 350000
+ Loading geomodel:  nd= 1008
+ Loading geomodel:  c12=Migri:geo-1b
+ Migri:geo-1a compressed format used in .mirg file loading 428028 429028 T
+ Migri:geo-1a compressed format used in .mirg file loading 428028 429028
+ Loading geomodel: nodes_layers_geo =  392359 12
+ mirpbasin.mirg.loading... 408 0 1 170 10 1
+ 240 10 --> 17 24 1 408
+ mirg.QA1: 13
+ mirg.QA1: 14
+ mirg.QA1: 15
+ mirg.QA1: 16
+ mirpbasin.mirg.loaded:-m> 1 170 10 1
+ 240 10
+ mirpbasin.mirg.loaded:-i> 17 24 1 1
+ mirpbasin.mirg.loaded:-a> 445000.0 571750.0 7500.000
+ 6726000. 6905250. 7500.000 -12608.70 -1161.950
+ -1161.950
+ mirpbasin.mirg.loaded:> 13 14 15 16 0 408
+ mirpbasin.mirg.loaded:: 408 408 1 170 10 1
+ 240 10 --> 17 24 1 408
+ Loading completed
+Loaded    428028 cells in   12 layers &     1 patches. Area size=  173 *  241 =     41693
+ inHiatus_layers: 1 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  1 nodes=     107 average=     -17.157 max=     -50.385
+ inHiatus_layers: 2 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  2 nodes=     107 average=     -17.157 max=     -50.385
+ inHiatus_layers: 3 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  3 nodes=       6 average=      -9.333 max=     -14.385
+ inHiatus_layers: 4 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  4 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 5 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  5 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 6 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  6 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 7 0
+ inHiatus_layers: 8 0
+ inHiatus_layers: 9 0
+ inHiatus_layers: 10 2
+>>>>>Correcting.Horizon.CROSSING.Layer= 10 nodes=   35669 average=    -100.000 max=    -100.000
+>>>>>Hiatus: Layer= 10 nodes=   35669   35669
+ inHiatus_layers: 11 0
+ mirpbasin.mirg.now loaded from mirg: 408
+=========================================================
+Geomodel: iaoi_geo         =        173        241          1      41693
+Geomodel:  aoi_geo         =   445000.00   574000.00  750.00
+Geomodel:  aoi_geo         =  6726000.00  6906000.00  750.00
+Geomodel: nodes_layers_geo =   392359
+Geomodel: nodes_in_geo     =   428028
+Geomodel: layers_geo       =       11
+Geomodel: layers_in_geo    =       12
+Geomodel: nodepatches_geo  =        1
+__________________________________________________________
+Geo.0Ma.size=    8832  8 :  428028 12
+ ____________Memory_sizes_geo_load.1 ___________ 10.00000 ___
+--> Allocated max_: geonodes,  max_geo, geo_aoi, geolayers, geopatches=
+                      42693      429028       42       17        2
+               Browse.array1      3.    3.
+           Browse.into_node      18.   24.
+           Browse.node_faulted   18.   46.
+                 Geo.into_geo    10.   70.
+                 Geo.work_geo    10.  115.
+                TOTAL.in.use      2.  119.
+ ____________Memory_sizes_________________________________
+ Project.lithosystem=   1 0 15 1 16
+ 99 134 1 136 99 137
+ 1 139
+ migri_facies_init== 134 0
+ migri_facies_init_layers== 0 0
+ migri_alias_users: 1 0  >something;strange<
+ migri-aliases.csv.load: 999  >Sorry, could not open migri-aliases.csv<
+ migri_facies_update::: 1 2 69 70 1 1
+ migri_facies_init_layers== 0 0
+ # thickness nodes=: 0  loop= 0 0
+ Project.downwards: 0  ><
+Estimated # nodes for Layer.properties=         1 Allocated=     73393        0
+ max_strata_prop= 1168 97 63 12
+ geo.log.layers.allocated.stratalog 0 14388 >Depth,Vscale,Age,
+ strata.csv: Unable to load stratigrigraphy from strata.csv
+ Error.string..:
+ Unable to load strata.csv. Missing Age,Vsh column(s) in Project.strata file<--
+ allocate.scale_strata_geo: 12 18 73
+Loaded.strata:..=  12   0   1   5   8  19  22  26  35  40  56  63  68  74  13   0   1  74
+migri_info_message::History.source:Loading started<       0       0
+ bin from migri-mysources.mirt 12
+migri_info_message::History.source:Loading ..binary...<       0       0
+ ->> EXP_GEO WILL NOW BE ALLOCATED !! 5
+ Migri.mirt.0.4 contains  2  histories
+Migri.mirt.info:    15    5    6     3790    56850    41693        4      166772   45   62    2    8    2    0    0    0
+ Load.petromod.times#timesteps: 11 5
+times_sim_geo=== 11 -100.000  -77.000  -65.000  -55.000  -45.000  -36.000  -23.000  -15.000  -10.000   -5.000   -2.000   -0.000
+times_exp_geo===  5 -100.000  -77.000  -65.000  -55.000  -45.000
+Load.petromod.Xstep::   1 -100.0000  -77.0000   65.0000    4    0    2  Exp   1   1
+Load.petromod.Xstep::   2 -100.0000  -65.0000   65.0000    4    0    2  Exp   2   2
+Load.petromod.Xstep::   3  -65.0000  -55.0000   55.0000    3    2    3  Exp   3   3
+Load.petromod.Xstep::   4  -55.0000  -45.0000    5.0000    2    3    9  Exp   4   4
+Load.petromod.Xstep::   5  -55.0000  -36.0000    5.0000    2    3    9  Exp   5   5
+Load.petromod.Xstep::   6  -55.0000  -23.0000    5.0000    2    3    9  Exp   6   6
+Load.petromod.Xstep::   7  -55.0000  -15.0000    5.0000    2    3    9  Exp   7   7
+Load.petromod.Xstep::   8  -55.0000  -10.0000    5.0000    2    3    9  Exp   8   8
+Load.petromod.Xstep::   9  -55.0000   -5.0000    5.0000    2    3    9  Exp   9   9
+Load.petromod.Xstep::  10   -5.0000   -2.0000    0.0000    1    9   11  Exp  10  10
+Load.petromod.Xstep::  11   -5.0000   -0.0000    0.0000    1    9   11  Exp  11  11
+ =>>add_mirp from: migri-mysources_mirt.csv<: 1 21 24
+->>Trying to load from: migri-mysources_mirt.csv
+ ->>Tried to load: 
+ Spreadsheet columns & rows loaded:     6     3 Columns:
+Nr,Name,Prefix,Subfix,U
+ nits,Type,
+ ->>Source.info to load:  10 65 67
+ ->>Source.info to load:  0 0 0
+ >>>>>increase_allocated_texcel: SYSTEM_INCREASED characters  23633 10000 >char<
+ >>AddTable.Source.info: 1 1
+migri_petromod_add_mirt:     0     2    14ThicknessHistory : ThicknessHistory
+ >>>migri_petromod_add_mirt.EMPTY=-1: 0 2 14 2
+migri_petromod_add_mirt:    12     2    14Source.oil : Source
+migri_petromod_add_mirt:    11     2    14Source.gas : Source
+ cfile_project->
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp<-
+ cname_project->MigriAlfa-3<-
+ MUID>>MigriAlfa-3<>>966111439<< 1
+ Group 1  = Gas
+ Group 2  = Oil
+ Project.lithosystem:>1<
+ Project.hydrocarbons:><
+ strata-hc.csv= 999 :: Sorry, could not open strata-hc.csv
+migri_info_message::Wellfile...:C:\Program Files\Migris\Migri2\data/migri-wells.csv<       0       0
+ logtraces -loaded??? 999 >
+ Sorry, could not open C:\Program Files\Migris\Migri2\misc/migri-logtraces.csv<
+ migri_make_compartments.1:: 1 11 T 858058
+ nork_geo.11: 1 1 0 7 0 1
+ nork_geo.11: 1 2 0 7 0 2
+ nork_geo.11: 1 3 0 7 0 3
+ nork_geo.11: 1 4 0 7 0 4
+ nork_geo.11: 1 5 0 7 0 5
+ nork_geo.11: 1 6 0 7 0 6
+ nork_geo.11: 1 7 0 7 0 7
+ nork_geo.11: 1 8 0 7 0 8
+ nork_geo.11: 1 9 0 7 0 9
+ nork_geo.11: 1 10 0 7 0 10
+ nork_geo.11: 1 11 0 7 0 11
+ nork_geo.11: 1 12 0 7 0 12
+ nork_geo.11: 1 13 0 7 0 13
+ nork_geo.11: 1 14 0 7 0 14
+ nork_geo.11: 1 15 0 7 0 15
+ nork_geo.11: 1 16 0 7 0 16
+ nork_geo.11: 1 17 0 7 0 17
+ nork_geo.11: 1 18 0 7 0 18
+ nork_geo.11: 1 19 0 7 0 19
+ migri_make_compartments.1a: 1 1 143033
+ migri_make_compartments.1a: 1 2 5568
+ migri_make_compartments.1a: 1 3 0
+ migri_make_compartments== 1 1 1
+ migri_make_compartments.1a: 2 1 143033
+ migri_make_compartments.1a: 2 2 5568
+ migri_make_compartments.1a: 2 3 0
+ migri_make_compartments== 2 2 1 35670
+ migri_make_compartments.1a: 3 1 143033
+ migri_make_compartments.1a: 3 2 5568
+ migri_make_compartments.1a: 3 3 0
+ migri_make_compartments== 3 3 1 35670 71339
+ migri_make_compartments.1a: 4 1 143033
+ migri_make_compartments.1a: 4 2 5568
+ migri_make_compartments.1a: 4 3 0
+ migri_make_compartments== 4 4 1 35670 71339 107008
+ migri_make_compartments.1a: 5 1 143033
+ migri_make_compartments.1a: 5 2 5568
+ migri_make_compartments.1a: 5 3 0
+ migri_make_compartments== 5 5 1 35670 71339 107008
+ 142677
+ migri_make_compartments.1a: 6 1 143033
+ migri_make_compartments.1a: 6 2 5568
+ migri_make_compartments.1a: 6 3 0
+ migri_make_compartments== 6 6 1 35670 71339 107008
+ 142677 178346
+ migri_make_compartments.1a: 7 1 143033
+ migri_make_compartments.1a: 7 2 5568
+ migri_make_compartments.1a: 7 3 0
+ migri_make_compartments== 7 7 1 35670 71339 107008
+ 142677 178346 214015
+ migri_make_compartments.1a: 8 1 143033
+ migri_make_compartments.1a: 8 2 5568
+ migri_make_compartments.1a: 8 3 0
+ migri_make_compartments== 8 8 1 35670 71339 107008
+ 142677 178346 214015 249684
+ migri_make_compartments.1a: 9 1 143033
+ migri_make_compartments.1a: 9 2 5568
+ migri_make_compartments.1a: 9 3 0
+ migri_make_compartments== 9 9 1 35670 71339 107008
+ 142677 178346 214015 249684 285353
+ migri_make_compartments.1a: 10 1 143033
+ migri_make_compartments.1a: 10 2 5568
+ migri_make_compartments.1a: 10 3 0
+ migri_make_compartments== 10 10 1 35670 71339 107008
+ 142677 178346 214015 249684 285353 321022
+ migri_make_compartments.1a: 11 1 143033
+ migri_make_compartments.1a: 11 2 5568
+ migri_make_compartments.1a: 11 3 0
+ migri_make_compartments== 11 11 1 35670 71339 107008
+ 142677 178346 214015 249684 285353 321022
+ 356691
+ migri_make_compartments.2:: 392359 11 10 428028
+ migri_make_compartments.3A: 392359 11 428028 858058 204 156
+ migri_make_compartments.3A1: 1 11 1 1 35669
+ migri_make_compartments.3A1: 2 11 1 35670 71338
+ migri_make_compartments.3A1: 3 11 1 71339 107007
+ migri_make_compartments.3A1: 4 11 1 107008 142676
+ migri_make_compartments.3A1: 5 11 1 142677 178345
+ migri_make_compartments.3A1: 6 11 1 178346 214014
+ migri_make_compartments.3A1: 7 11 1 214015 249683
+ migri_make_compartments.3A1: 8 11 1 249684 285352
+ migri_make_compartments.3A1: 9 11 1 285353 321021
+ migri_make_compartments.3A1: 10 11 1 321022 356690
+ migri_make_compartments.3A1: 11 11 1 356691 392359
+ migri_make_compartments.3a:: 11
+ migri_make_compartments.3b:: 11 1 11
+ migri_make_compartments.3c:: 392359 11
+ migri_make_compartments.4:: 392359 11
+COMParted.nant::   363    11     1    11
+COMParted.nant.2   550
+COMParted.aquifiers::   392359   392359    70893
+COMParted.max_into::     0   100     0     1     1
+ shows: 11
+show::     1     1     0     0     0     0     0     0     0     0
+show::     2     1     0     0     0     0     0     0     0     0
+show::     3     1     0     0     0     0     0     0     0     0
+show::     4     1     0     0     0     0     0     0     0     0
+show::     5     1     0     0     0     0     0     0     0     0
+show::     6     1     0     0     0     0     0     0     0     0
+show::     7     1     0     0     0     0     0     0     0     0
+show::     8     1     0     0     0     0     0     0     0     0
+show::     9     1     0     0     0     0     0     0     0     0
+ shown: 11
+COMParted::   1       1       1       0   14409   35669       1   35669       0       0       0       0       0       1       1       0       0       1
+COMParted::   2       2       1       0   50078   35669   35670   71338       0       0       0       0       0   35670       1       0       0       2
+COMParted::   3       3       1       0   85747   35669   71339  107007       0       0       0       0       1   71339   35609       0       0       3
+COMParted::   4       4       1       0  121416   35669  107008  142676       0       0       0       0       0  107008   35610       0       0       4
+COMParted::   5       5       1       0  157085   35669  142677  178345       0       0       0       0       0  142677   35610       0       0       5
+COMParted::   6       6       1       0  192754   35669  178346  214014       0       0       0       0       0  178346   35610       0       0       6
+COMParted::   7       7       1       0  228423   35669  214015  249683       0       0       0       0       0  214015   35610       0       0       7
+COMParted::   8       8       1       0  264092   35669  249684  285352       0       0       0       0       0  249684   35610       0       0       8
+COMParted::   9       9       1       0  299761   35669  285353  321021       0       0       0       0       1  285353   70892       0       0       9
+COMParted::  10      10       1       0  335430   35669  321022  356690       0       0       0       0       0  321022   70893       0       0      10
+COMParted::  11      11       1       0  371099   35669  356691  392359       0       0       0       0       0  356691   70893       0       0      11
+ Output.loaded: 999
+ =>>add_mirp from: LithoFacies<: 2 8 11
+ =>>add_mirp from: Browsetopics<: 1 9 12
+->>Trying to load from: C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/Browsetopics.mirp
+=>>Unable to load from: C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/Browsetopics.mirp
+ migri_lithofacies_missing.1: 69 70 3 69 70 4 69 70
+ Project.strata.CHECK:: 0 0 ><
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/migri-wells
+ .csv< -1 0 0 0
+migri_gui_timesteps    1  -1: -77.Ma           -77.000000000 Duration=   23.000000000
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+ migri_gui_get_hc_groups: 0 1 2 1 49 47 1 400
+ Group.name= 1  Gas N= 1  mw= 16.04300
+ Group.name= 2  Oil N= 10  mw= 142.2850
+migri_gui_timesteps    1  -1: -77.Ma           -77.000000000 Duration=   23.000000000
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+migri_gui_timesteps   12  11: TWT                0.000000000 Duration=    0.000000000
+migri_gui_timesteps   13  12: Age                0.000000000 Duration=    0.000000000
+ migri-kinetics.company:::: 15300 5 420 0  >
+ C:\Users\areto/CompanyData/kinetics/migri-kinetics<
+ migri-kinetics.company==:: 689 420 11 16
+ migri-kinetics.user.malloc: 15300 689 2275 6 2550
+ migri-kinetics.user:::: 15300 5 420 -1
+ migri-kinetics.userstart: 0 11 16 0 689 16
+ kinetics: # reaction groups=  16  # hc groups=  4
+ kinetics: # reaction hc's  =    2   2   2   2   2   2   2   2   2   2   2   4   4   4   4   4
+simulation.type> Migration<><   2   1   1
+ migri_guf_size_xyzt== 19902 3 2 0 0 0 0 0 0  z1= 3.2000000E+38 >
+ Basemaps\npd_licences.pol
+CPU      143              cut_xyz:->        4         0 <---<<<        3.62      311.38
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+ migri_guf_command:: 1 6 10 0 =note 124 2; 10
+ im note 124 2 0
+gui_cut_timestep=        1      1     34      0      0      0 100000  0
+ migri_guf_command:: 1 6 10 0 =note 124 0; 10
+ im note 124 0 0
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/calibration
+ /wellsets.csv< -1 0 0 0
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/migri-wells
+ .csv< -1 0 0 0
+ showgui.hack::>showgui correlation<:: 0 0
+EXTENSION->C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/mirp/MigriAlfa-3#1.mirp
+ SaveChanges.MIRPID>966111439<>MigriA< 20 25
+ migri_cut_storage.Deleting any cut profiles in memory= 0
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ HDF.close: 0
+ migri-info.html closed
+ Migri_guf_close== 1 0  MigriAlfa-3 0
+ migri_gui_close.return== 1
+ migri_cut_storage.Deleting any cut profiles in memory= 0
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ migri_texcel_close>***closed***<
+ HDF.close: -1
+ migri-info.html closed
+ migri_alias_users: -1 0  >Easting<
+ Migri_guf_close== 1 0  MigriAlfa-3 -1
+ migri_gui_close.return== 1
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+ migri_guf_command:: 1 6 10 0 =note 124 2; 10
+ im note 124 2 0
+gui_cut_timestep=        1      1     34      0      0      0 100000  0
+ migri_guf_command:: 1 6 10 0 =note 124 0; 10
+ im note 124 0 0
+CPU      148                 load:->        1         1 <---<<<       10.91      322.48
+ HDF.gzip:: filter available. 0
+ Start : 
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirl 
+Date    20201105 time=142830.922 dll=  201104 user=are  OS=64bit_Windows
+Migri.GUI used      1 HDF=  11006 MigriX=      0
+ MIRP=
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp 400 87
+ C:\Program Files\Migris\Migri2\<----cMIGRI_PATH of installation__
+ Project.requires:<
+ Project.dbout><---
+project.name= MigriAlfa-3
+project.dir== ..\db\
+project.mir== C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/
+project.file= C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirp
+project.dbout output/
+ Project.lithoversion><
+ cdir_migri   ->
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/<-
+ cname_project->MigriAlfa-3<-
+ cdir_project-->..\db\<-
+ Strata==..\db\/strata.csv
+ Project.hdfinput><
+ Loading.flexlm= 2 Migri:geo-1b 1 428028 12 173 241 1
+ 41693 445000.0 574000.0 750.0000 6726000.
+ 6906000. 750.0000 0.000000 0.000000 0.000000
+ FLEXLM.required== 2
+migri_info_message::Project...:C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirg<       0       1
+ Loading:>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirg<
+ --> Allocating..mode: 2 42693 428028 1 0
+ MAX_OS::: 82 3360000 1 6 48 1.7500000E+10
+ MAX_AOIi: 445000.0 574000.0 750.0000
+ MAX_AOIj: 6726000. 6906000. 750.0000
+ MAX_iAOI: 173 241 1 41693
+ MAX_OS.:: 82 3360000
+ ---------------------------------------------
+--> Allocating max_: geonodes,  max_geo, geo_aoi, geolayers, geopatches, geofault=
+                      42693      429028       42       17        2     8538
+ ---------------------------------------------
+ max_work: 6  Size.geo= 61.78003  MB
+ allocate_geofau.locfault_geo>> 12 8538 0 9 429028
+Allocated geo.arrays:     204     204       0 # arrays=     119
+ Migri:geo-1b.load.mirpid.muid.mirpbasin: 966111439 966111439 408
+ --> allocate_nodefault_geo: 429029 0 9 1 0
+ allocate_geofau.locfault_geo-> 12 12  <-> 0 : 0
+ Loading geomodel: iaoi_geo         =     173     241       1   41693
+ Loading geomodel:  aoi_geo         =   445000.00   574000.00  750.00
+ Loading geomodel:  aoi_geo         =  6726000.00  6906000.00  750.00
+ Loading geomodel: nodes_layers_geo = 0  nodes_in_geo= 428028
+ Loading geomodel: layers_geo       = 11  Layers_in_geo= 12
+ Loading geomodel: nodepatches_geo  = 1  mirpbasin= 408
+ Loading geomodel: muid             =  966111439  mirpid= 966111439
+ Loading geomodel> Migri:geo-1b
+ Compressed .mirg file can now be read Migri:geo-1b
+ Loading Layers:  12 428028 173 241 1 41693 42693
+ Loaded mirpbasin:  408
+ Loaded Patches:  12 428028
+ Loading geomodel:  nodefault_geo   = 428029 9 1
+ Loading geomodel:  nodefault_geo   loaded 428029 9 9 1
+ Loading geomodel:  locfault_geo    ...... 0 12 1
+ Loading geomodel:..locfault_geo....... 12 12
+ Loading geomodel:  locfault_geo    loaded 0 12 12 1
+ migri_list_meager_geo:: 1 10 0
+ Loading geomodel:  nd= 1008
+ Loading geomodel:  nd= 1008 350000
+ Loading geomodel:  nd= 1008
+ Loading geomodel:  c12=Migri:geo-1b
+ Migri:geo-1a compressed format used in .mirg file loading 428028 429028 T
+ Migri:geo-1a compressed format used in .mirg file loading 428028 429028
+ Loading geomodel: nodes_layers_geo =  392359 12
+ mirpbasin.mirg.loading... 408 0 1 170 10 1
+ 240 10 --> 17 24 1 408
+ mirg.QA1: 13
+ mirg.QA1: 14
+ mirg.QA1: 15
+ mirg.QA1: 16
+ mirpbasin.mirg.loaded:-m> 1 170 10 1
+ 240 10
+ mirpbasin.mirg.loaded:-i> 17 24 1 1
+ mirpbasin.mirg.loaded:-a> 445000.0 571750.0 7500.000
+ 6726000. 6905250. 7500.000 -12608.70 -1161.950
+ -1161.950
+ mirpbasin.mirg.loaded:> 13 14 15 16 0 408
+ mirpbasin.mirg.loaded:: 408 408 1 170 10 1
+ 240 10 --> 17 24 1 408
+ Loading completed
+Loaded    428028 cells in   12 layers &     1 patches. Area size=  173 *  241 =     41693
+ inHiatus_layers: 1 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  1 nodes=     107 average=     -17.157 max=     -50.385
+ inHiatus_layers: 2 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  2 nodes=     107 average=     -17.157 max=     -50.385
+ inHiatus_layers: 3 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  3 nodes=       6 average=      -9.333 max=     -14.385
+ inHiatus_layers: 4 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  4 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 5 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  5 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 6 0
+>>>>>Correcting.Horizon.CROSSING.Layer=  6 nodes=       2 average=     -13.700 max=     -14.385
+ inHiatus_layers: 7 0
+ inHiatus_layers: 8 0
+ inHiatus_layers: 9 0
+ inHiatus_layers: 10 2
+>>>>>Correcting.Horizon.CROSSING.Layer= 10 nodes=   35669 average=    -100.000 max=    -100.000
+>>>>>Hiatus: Layer= 10 nodes=   35669   35669
+ inHiatus_layers: 11 0
+ mirpbasin.mirg.now loaded from mirg: 408
+=========================================================
+Geomodel: iaoi_geo         =        173        241          1      41693
+Geomodel:  aoi_geo         =   445000.00   574000.00  750.00
+Geomodel:  aoi_geo         =  6726000.00  6906000.00  750.00
+Geomodel: nodes_layers_geo =   392359
+Geomodel: nodes_in_geo     =   428028
+Geomodel: layers_geo       =       11
+Geomodel: layers_in_geo    =       12
+Geomodel: nodepatches_geo  =        1
+__________________________________________________________
+Geo.0Ma.size=    8832  8 :  428028 12
+ Project.lithosystem=   1 0 15 1 16
+ 99 134 1 136 99 137
+ 1 139
+ migri_facies_init== 134 0
+ migri_facies_init_layers== 0 0
+ migri_alias_users: 1 0  >something;strange<
+ migri-aliases.csv.load: 999  >Sorry, could not open migri-aliases.csv<
+ migri_facies_update::: 1 2 66 67 1 1
+ migri_facies_init_layers== 0 0
+ # thickness nodes=: 0  loop= 0 0
+ Project.downwards: 0  ><
+Estimated # nodes for Layer.properties=         1 Allocated=     73393        0
+ max_strata_prop= 1168 97 63 12
+ geo.log.layers.allocated.stratalog 0 14388 >Depth,Vscale,Age,
+ strata.csv: Unable to load stratigrigraphy from strata.csv
+ Error.string..:
+ Unable to load strata.csv. Missing Age,Vsh column(s) in Project.strata file<--
+ allocate.scale_strata_geo: 12 18 73
+Loaded.strata:..=  12   0   1   5   8  19  22  26  35  40  56  63  68  74  13   0   1  74
+migri_info_message::History.source:Loading started<       0       0
+ bin from migri-mysources.mirt 12
+migri_info_message::History.source:Loading ..binary...<       0       0
+ ->> EXP_GEO WILL NOW BE ALLOCATED !! 5
+ Migri.mirt.0.4 contains  2  histories
+Migri.mirt.info:    15    5    6     3790    56850    41693        4      166772   45   62    2    8    2    0    0    0
+ Load.petromod.times#timesteps: 11 5
+times_sim_geo=== 11 -100.000  -77.000  -65.000  -55.000  -45.000  -36.000  -23.000  -15.000  -10.000   -5.000   -2.000   -0.000
+times_exp_geo===  5 -100.000  -77.000  -65.000  -55.000  -45.000
+Load.petromod.Xstep::   1 -100.0000  -77.0000   65.0000    4    0    2  Exp   1   1
+Load.petromod.Xstep::   2 -100.0000  -65.0000   65.0000    4    0    2  Exp   2   2
+Load.petromod.Xstep::   3  -65.0000  -55.0000   55.0000    3    2    3  Exp   3   3
+Load.petromod.Xstep::   4  -55.0000  -45.0000    5.0000    2    3    9  Exp   4   4
+Load.petromod.Xstep::   5  -55.0000  -36.0000    5.0000    2    3    9  Exp   5   5
+Load.petromod.Xstep::   6  -55.0000  -23.0000    5.0000    2    3    9  Exp   6   6
+Load.petromod.Xstep::   7  -55.0000  -15.0000    5.0000    2    3    9  Exp   7   7
+Load.petromod.Xstep::   8  -55.0000  -10.0000    5.0000    2    3    9  Exp   8   8
+Load.petromod.Xstep::   9  -55.0000   -5.0000    5.0000    2    3    9  Exp   9   9
+Load.petromod.Xstep::  10   -5.0000   -2.0000    0.0000    1    9   11  Exp  10  10
+Load.petromod.Xstep::  11   -5.0000   -0.0000    0.0000    1    9   11  Exp  11  11
+ =>>add_mirp from: migri-mysources_mirt.csv<: 1 21 24
+->>Trying to load from: migri-mysources_mirt.csv
+ ->>Tried to load: 
+ Spreadsheet columns & rows loaded:     6     3 Columns:
+Nr,Name,Prefix,Subfix,U
+ nits,Type,
+ ->>Source.info to load:  10 148 150
+ ->>Source.info to load:  0 0 0
+ >>>>>increase_allocated_texcel: SYSTEM_INCREASED characters  24429 10000 >char<
+ >>AddTable.Source.info: 1 1
+migri_petromod_add_mirt:     0     2    14ThicknessHistory : ThicknessHistory
+ >>>migri_petromod_add_mirt.EMPTY=-1: 0 2 14 2
+migri_petromod_add_mirt:    12     2    14Source.oil : Source
+migri_petromod_add_mirt:    11     2    14Source.gas : Source
+ cfile_project->
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlf
+ a-3.mirp<-
+ cname_project->MigriAlfa-3<-
+ MUID>>MigriAlfa-3<>>966111439<< 1
+ Group 1  = Gas
+ Group 2  = Oil
+ Project.lithosystem:>1<
+ Project.hydrocarbons:><
+ strata-hc.csv= 999 :: Sorry, could not open strata-hc.csv
+migri_info_message::Wellfile...:C:\Program Files\Migris\Migri2\data/migri-wells.csv<       0       0
+ logtraces -loaded??? 999 >
+ Sorry, could not open C:\Program Files\Migris\Migri2\misc/migri-logtraces.csv<
+ migri_make_compartments.1:: 1 11 T 858058
+ nork_geo.11: 1 1 0 7 0 1
+ nork_geo.11: 1 2 0 7 0 2
+ nork_geo.11: 1 3 0 7 0 3
+ nork_geo.11: 1 4 0 7 0 4
+ nork_geo.11: 1 5 0 7 0 5
+ nork_geo.11: 1 6 0 7 0 6
+ nork_geo.11: 1 7 0 7 0 7
+ nork_geo.11: 1 8 0 7 0 8
+ nork_geo.11: 1 9 0 7 0 9
+ nork_geo.11: 1 10 0 7 0 10
+ nork_geo.11: 1 11 0 7 0 11
+ nork_geo.11: 1 12 0 7 0 12
+ nork_geo.11: 1 13 0 7 0 13
+ nork_geo.11: 1 14 0 7 0 14
+ nork_geo.11: 1 15 0 7 0 15
+ nork_geo.11: 1 16 0 7 0 16
+ nork_geo.11: 1 17 0 7 0 17
+ nork_geo.11: 1 18 0 7 0 18
+ nork_geo.11: 1 19 0 7 0 19
+ migri_make_compartments.1a: 1 1 143033
+ migri_make_compartments.1a: 1 2 5568
+ migri_make_compartments.1a: 1 3 0
+ migri_make_compartments== 1 1 1
+ migri_make_compartments.1a: 2 1 143033
+ migri_make_compartments.1a: 2 2 5568
+ migri_make_compartments.1a: 2 3 0
+ migri_make_compartments== 2 2 1 35670
+ migri_make_compartments.1a: 3 1 143033
+ migri_make_compartments.1a: 3 2 5568
+ migri_make_compartments.1a: 3 3 0
+ migri_make_compartments== 3 3 1 35670 71339
+ migri_make_compartments.1a: 4 1 143033
+ migri_make_compartments.1a: 4 2 5568
+ migri_make_compartments.1a: 4 3 0
+ migri_make_compartments== 4 4 1 35670 71339 107008
+ migri_make_compartments.1a: 5 1 143033
+ migri_make_compartments.1a: 5 2 5568
+ migri_make_compartments.1a: 5 3 0
+ migri_make_compartments== 5 5 1 35670 71339 107008
+ 142677
+ migri_make_compartments.1a: 6 1 143033
+ migri_make_compartments.1a: 6 2 5568
+ migri_make_compartments.1a: 6 3 0
+ migri_make_compartments== 6 6 1 35670 71339 107008
+ 142677 178346
+ migri_make_compartments.1a: 7 1 143033
+ migri_make_compartments.1a: 7 2 5568
+ migri_make_compartments.1a: 7 3 0
+ migri_make_compartments== 7 7 1 35670 71339 107008
+ 142677 178346 214015
+ migri_make_compartments.1a: 8 1 143033
+ migri_make_compartments.1a: 8 2 5568
+ migri_make_compartments.1a: 8 3 0
+ migri_make_compartments== 8 8 1 35670 71339 107008
+ 142677 178346 214015 249684
+ migri_make_compartments.1a: 9 1 143033
+ migri_make_compartments.1a: 9 2 5568
+ migri_make_compartments.1a: 9 3 0
+ migri_make_compartments== 9 9 1 35670 71339 107008
+ 142677 178346 214015 249684 285353
+ migri_make_compartments.1a: 10 1 143033
+ migri_make_compartments.1a: 10 2 5568
+ migri_make_compartments.1a: 10 3 0
+ migri_make_compartments== 10 10 1 35670 71339 107008
+ 142677 178346 214015 249684 285353 321022
+ migri_make_compartments.1a: 11 1 143033
+ migri_make_compartments.1a: 11 2 5568
+ migri_make_compartments.1a: 11 3 0
+ migri_make_compartments== 11 11 1 35670 71339 107008
+ 142677 178346 214015 249684 285353 321022
+ 356691
+ migri_make_compartments.2:: 392359 11 11 428028
+ migri_make_compartments.3A: 392359 11 428028 858058 204 156
+ migri_make_compartments.3A1: 1 11 1 1 35669
+ migri_make_compartments.3A1: 2 11 1 35670 71338
+ migri_make_compartments.3A1: 3 11 1 71339 107007
+ migri_make_compartments.3A1: 4 11 1 107008 142676
+ migri_make_compartments.3A1: 5 11 1 142677 178345
+ migri_make_compartments.3A1: 6 11 1 178346 214014
+ migri_make_compartments.3A1: 7 11 1 214015 249683
+ migri_make_compartments.3A1: 8 11 1 249684 285352
+ migri_make_compartments.3A1: 9 11 1 285353 321021
+ migri_make_compartments.3A1: 10 11 1 321022 356690
+ migri_make_compartments.3A1: 11 11 1 356691 392359
+ migri_make_compartments.3a:: 11
+ migri_make_compartments.3b:: 11 1 11
+ migri_make_compartments.3c:: 392359 11
+ migri_make_compartments.4:: 392359 11
+COMParted.nant::   363    11     1    11
+COMParted.nant.2   550
+COMParted.aquifiers::   392359   392359    70893
+COMParted.max_into::     0   100     0     1     1
+ shows: 11
+show::     1     1     0     0     0     0     0     0     0     0
+show::     2     1     0     0     0     0     0     0     0     0
+show::     3     1     0     0     0     0     0     0     0     0
+show::     4     1     0     0     0     0     0     0     0     0
+show::     5     1     0     0     0     0     0     0     0     0
+show::     6     1     0     0     0     0     0     0     0     0
+show::     7     1     0     0     0     0     0     0     0     0
+show::     8     1     0     0     0     0     0     0     0     0
+show::     9     1     0     0     0     0     0     0     0     0
+ shown: 11
+COMParted::   1       1       1       0   14409   35669       1   35669       0       0       0       0       0       1       1       0       0       1
+COMParted::   2       2       1       0   50078   35669   35670   71338       0       0       0       0       0   35670       1       0       0       2
+COMParted::   3       3       1       0   85747   35669   71339  107007       0       0       0       0       1   71339   35609       0       0       3
+COMParted::   4       4       1       0  121416   35669  107008  142676       0       0       0       0       0  107008   35610       0       0       4
+COMParted::   5       5       1       0  157085   35669  142677  178345       0       0       0       0       0  142677   35610       0       0       5
+COMParted::   6       6       1       0  192754   35669  178346  214014       0       0       0       0       0  178346   35610       0       0       6
+COMParted::   7       7       1       0  228423   35669  214015  249683       0       0       0       0       0  214015   35610       0       0       7
+COMParted::   8       8       1       0  264092   35669  249684  285352       0       0       0       0       0  249684   35610       0       0       8
+COMParted::   9       9       1       0  299761   35669  285353  321021       0       0       0       0       1  285353   70892       0       0       9
+COMParted::  10      10       1       0  335430   35669  321022  356690       0       0       0       0       0  321022   70893       0       0      10
+COMParted::  11      11       1       0  371099   35669  356691  392359       0       0       0       0       0  356691   70893       0       0      11
+ Output.loaded: 999
+ =>>add_mirp from: LithoFacies<: 2 8 11
+ =>>add_mirp from: Browsetopics<: 1 9 12
+->>Trying to load from: C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/Browsetopics.mirp
+=>>Unable to load from: C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/Browsetopics.mirp
+ migri_lithofacies_missing.1: 66 67 3 66 67 4 66 67
+ Project.strata.CHECK:: 0 0 ><
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/migri-wells
+ .csv< -1 0 0 0
+migri_gui_timesteps    1  -1: -77.Ma           -77.000000000 Duration=   23.000000000
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+ migri_gui_get_hc_groups: 0 1 2 1 50 48 1 400
+ Group.name= 1  Gas N= 1  mw= 16.04300
+ Group.name= 2  Oil N= 10  mw= 142.2850
+migri_gui_timesteps    1  -1: -77.Ma           -77.000000000 Duration=   23.000000000
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+migri_gui_timesteps   12  11: TWT                0.000000000 Duration=    0.000000000
+migri_gui_timesteps   13  12: Age                0.000000000 Duration=    0.000000000
+ migri-kinetics.company:::: 15300 5 420 0  >
+ C:\Users\areto/CompanyData/kinetics/migri-kinetics<
+ migri-kinetics.company==:: 689 420 11 16
+ migri-kinetics.user.malloc: 15300 689 2275 6 2550
+ migri-kinetics.user:::: 15300 5 420 -1
+ migri-kinetics.userstart: 0 11 16 0 689 16
+ kinetics: # reaction groups=  16  # hc groups=  4
+ kinetics: # reaction hc's  =    2   2   2   2   2   2   2   2   2   2   2   4   4   4   4   4
+simulation.type> Migration<><   2   1   1
+ migri_guf_size_xyzt== 19902 3 2 0 0 0 0 0 0  z1= 3.2000000E+38 >
+ Basemaps\npd_licences.pol
+CPU      174              cut_xyz:->        4         0 <---<<<        3.52      327.92
+migri_gui_timesteps    2   1: -65.Ma           -65.000000000 Duration=   12.000000000
+migri_gui_timesteps    3   2: -55.Ma           -55.000000000 Duration=   10.000000000
+migri_gui_timesteps    4   3: -45.Ma           -45.000000000 Duration=   10.000000000
+migri_gui_timesteps    5   4: -36.Ma           -36.000000000 Duration=    9.000000000
+migri_gui_timesteps    6   5: -23.Ma           -23.000000000 Duration=   13.000000000
+migri_gui_timesteps    7   6: -15.Ma           -15.000000000 Duration=    8.000000000
+migri_gui_timesteps    8   7: -10.Ma           -10.000000000 Duration=    5.000000000
+migri_gui_timesteps    9   8: -5.Ma             -5.000000000 Duration=    5.000000000
+migri_gui_timesteps   10   9: -2.Ma             -2.000000000 Duration=    3.000000000
+migri_gui_timesteps   11  10: 0.Ma              -0.000000000 Duration=    2.000000000
+ migri_guf_command:: 1 6 10 0 =note 124 2; 10
+ im note 124 2 0
+gui_cut_timestep=        1      1     34      0      0      0 100000  0
+ migri_guf_command:: 1 6 10 0 =note 124 0; 10
+ im note 124 0 0
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/calibration
+ /wellsets.csv< -1 0 0 0
+ cut_file.FAILED>
+ C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/migri-wells
+ .csv< -1 0 0 0
+ showgui.hack::>showgui correlation<:: 0 0
