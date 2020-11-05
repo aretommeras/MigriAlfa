@@ -1,4 +1,4 @@
-Migri.table,0.13,Layers.info,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,M,26,M,28,29,30,31
+Migri.table,0.13,Layers.info,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,M,26,M,28,29,30,31,32
 Number,Age,Horizon,Faults,Thickness,Lithology,Vsh,Vca,Stratas,Sorting,Source.gas,Source.oil,Pe.K,Pe.P,Pe.slope,Add.depth,Pc.Soh,Min,Max,Depth_max,Thick_max,Mean_Thickness,Thickness,Thick_nodes,Semi.agetopic,Name,Source.active,Vcp,Vom,Vev,Vig
 1,0.000,|-mwd.irap|mtmj.irap|select|, , ,3, , ,3, , , , , , , , , , , , , , , , ,mwd,0
 2,5.000,-mtmi.irap, , ,3, , ,2, , , , , , , , , , , , , , , , ,mtmi,0
@@ -22,7 +22,7 @@ Layers,  12
 Project.geometry,MigriAlfa-3
 Project.db,../db/
 History.source,migri-mysources_mirt.csv
-Project.file,C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirp,C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlfa-2.mirp    ,W:\backup\Migris\6_Installations\Migri\Migri\MigriProjects\MigriAlfa\migri\MigriAlfa-2.mirp
+Project.file,C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirp,C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlfa-2.mirp,C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlfa-2.mirp
 Project.median,3
 Project.basin,NorthSea
 Project.comment,Migri demonstration project
@@ -37,12 +37,13 @@ Project.tags.output,Demo;
 Project.processes,2 {Migration}
 Project.autosave,autosave.mirm
 Project.Horizon.unit,m
-Project.mirsaved,1,201105.1424
-Project.mirused,201104, , , ,Windows
-Project.windows,C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\migri\MigriAlfa-2.mirp
-Project.mirpid,966111439, , ,930012610
+Project.mirsaved,2,201105.1424, 201105.1428
+Project.mirused,201104,201104, , ,Windows
+Project.windows,C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirp
+Project.mirpid,591832329,966111439, ,930012610
 Stochastic.type
-Project.mirgeom,201104, , , 201105.1424,2
+Project.mirgeom,201104, , ,201105.1424,2
+Project.T.adjust,1.4
 Migri.table,0.13,HC.info
 Mix,Group,N,Gas,Oil
 1,  Gas,  1,1,  0
@@ -61,10 +62,6 @@ Times,Petromod
 65,   1
 77,   0
 100,  1
-Migri.table,0.13,Source.info
-Nr,Name,Prefix,Subfix,Units,Type
-1,ujur_gas,../dbs/ev_143-142-001_ref,_exp-gas.irap,g/sqcm,Gas
-2,ujur_oil,../dbs/ev_143-142-001_ref,_exp-oil.irap,g/sqcm,Oil
 Migri.table,0.15,LithoFacies.info,4,5,6,7,8,9,10,11,12,13,14
 Facies,Lithology,Name,Vsh,Vca,Vcp,Vom,Vev,Vig,Pe.P,Sorting,Swi,Color,Comment
  , , ,1, , , , , ,0.5+-0.1,1+-0.5,0.1+-0.1
@@ -143,4 +140,12 @@ Project.info,23,m,upd,201105.1424+1
 SaveMirp,966111439,MigriAlfa-3, ,201105.1424+1
 LoadNewMirp,966111439,MigriAlfa-3,win.201104,201105.1424+1
 Geometry,2,MigriAlfa-3, ,201105.1424+1
-Migri.table,ended
+LoadMirp,966111439,MigriAlfa-3,win.201104,201105.1425+1
+Project.T.adjust,1, ,old,201105.1428+1
+Project.T.adjust,1,1.4,use,201105.1428+1
+SaveMirp,591832329,MigriAlfa-3, ,201105.1428+1
+Migri.table,0.13 ,Source.info
+Nr,Name,Prefix,Subfix,Units,Type
+1,ujur_gas,../dbs/ev_143-142-001_ref,_exp-gas.irap,g/sqcm,Gas
+2,ujur_oil,../dbs/ev_143-142-001_ref,_exp-oil.irap,g/sqcm,Oil
+Migri.table,ended,ended
