@@ -1305,3 +1305,49 @@ gui_cut_timestep=        1      1     34      0      0      0 100000  0
  C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/db/migri-wells
  .csv< -1 0 0 0
  showgui.hack::>showgui correlation<:: 0 0
+EXTENSION->C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/mirp/MigriAlfa-3#2.mirp
+ SaveChanges.MIRPID>591832329<>MigriA< 20 25
+EXTENSION->C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/mirp/MigriAlfa-3#3.mirp
+EXTENSION->C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/mirp/MigriAlfa-3#4.mirp
+EXTENSION->C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/mirp/MigriAlfa-3#5.mirp
+PICKED.GUI::  38459.39 119338.72   6676.25       0 Layer_grid=       5       1
+ Pick.xy.GEO..:: 483459.4 6845338. 52.27917 160.1180
+_________________________________________________________________
+PICKED.------->   483459.38  6845338.50  5->  165878   27559   27559 -2750.33
+PICKED.center_:   483250.00  6845250.00    -2750.33
+PICKED.corners:       0       0       0       0
+PICKED.into   :  165877  165879  165739  166018  201547  130209
+ABOVE..into   :  130208  130210  130070  130349  165878   94540   27559       1
+BELOW..into   :  201546  201548  201408  201687  237216  165878   27559       1
+ store_tableC_csv_file.max.rows.cols== 63 63 34 483250.0 483250.0
+ 483250.0 483250.0
+ migri_pick_csv_store= 165878 2142 0 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000
+ migri_gui_pick.2= 165878
+ migri_gui_pick.3= 165878
+ migri_gui_pick.4= 165878
+ migri_gui_pick.return= 165878
+PICKED.GUI::  38459.39 119338.72   6676.25       0 Layer_grid=       5       1
+ Pick.xy.GEO..:: 483459.4 6845338. 52.27917 160.1180
+_________________________________________________________________
+PICKED.------->   483459.38  6845338.50  5->  165878   27559   27559 -2750.33
+PICKED.center_:   483250.00  6845250.00    -2750.33
+PICKED.corners:       0       0       0       0
+PICKED.into   :  165877  165879  165739  166018  201547  130209
+ABOVE..into   :  130208  130210  130070  130349  165878   94540   27559       1
+BELOW..into   :  201546  201548  201408  201687  237216  165878   27559       1
+ store_tableC_csv_file.max.rows.cols== 63 63 34 483250.0 483250.0
+ 483250.0 483250.0
+ migri_pick_csv_store= 165878 2142 0 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000
+ migri_gui_pick.2= 165878
+ migri_gui_pick.3= 165878
+ migri_gui_pick.4= 165878
+ migri_gui_pick.return= 165878
+ BASINASSIST>>ev_55Ma_mtpa_Vsh<-- 1023
+ B...
+ migri_gui_save_grid::
+ C:\Users\areto\Downloads\MigriAlfa-main\MigriAlfa-main\MigriAlfa\db\Vsh_100Ma_L
+ Cret_0.Ma.gri<< 1
+EXTENSION->C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/mirp/MigriAlfa-3#6.mirp
+ SaveChanges.MIRPID>945181344<>MigriA< 20 25

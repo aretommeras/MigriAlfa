@@ -1,10 +1,10 @@
-Migri.table,0.13,Layers.info,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,M,26,M,28,29,30,31,32
+Migri.table,0.13,Layers.info,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,M,26,M,28,29,30,31,32,33
 Number,Age,Horizon,Faults,Thickness,Lithology,Vsh,Vca,Stratas,Sorting,Source.gas,Source.oil,Pe.K,Pe.P,Pe.slope,Add.depth,Pc.Soh,Min,Max,Depth_max,Thick_max,Mean_Thickness,Thickness,Thick_nodes,Semi.agetopic,Name,Source.active,Vcp,Vom,Vev,Vig
 1,0.000,|-mwd.irap|mtmj.irap|select|, , ,3, , ,3, , , , , , , , , , , , , , , , ,mwd,0
 2,5.000,-mtmi.irap, , ,3, , ,2, , , , , , , , , , , , , , , , ,mtmi,0
 3,55.000,-mtpa.irap, , ,7, , ,10, , , , , , , , , , , , , , , , ,mtpa,0
 4,65.000,-mbte.irap, , ,3, , ,2, , , , , , , , , , , , , , , , ,mbte,0
-5,100.000,-mcr2.irap, , ,3, , ,3, , , , , , , , , , , , , , , , ,LCret,0
+5,100.000,-mcr2.irap, , ,3,Vsh_100Ma_LCret_0.Ma.gri+-0.05, ,3, , , , , , , , , , , , , , , , ,LCret,0
 6,125.000,-mcr1.irap, , ,2, , ,8, , , , , , , , , , , , , , , , ,IntraLCr,0
 7,142.000,-mbcr.irap, , ,3, , ,4, , , , , , , , , , , , , , , , ,mbcr,0
 8,143.000,-m143.irap, , ,4, , ,15, ,Exp.1 {ujur_gas},Exp.2 {ujur_oil}, , , , , , , , , , , , , ,m143,1
@@ -37,13 +37,13 @@ Project.tags.output,Demo;
 Project.processes,2 {Migration}
 Project.autosave,autosave.mirm
 Project.Horizon.unit,m
-Project.mirsaved,2,201105.1424, 201105.1428
-Project.mirused,201104,201104, , ,Windows
+Project.mirsaved,4,201105.1424,201105.1428, 201105.1441
+Project.mirused,201104,201104,201104, ,Windows
 Project.windows,C:/Users/areto/Downloads/MigriAlfa-main/MigriAlfa-main/MigriAlfa/migri/MigriAlfa-3.mirp
-Project.mirpid,591832329,966111439, ,930012610
+Project.mirpid,634422388,945181344, ,930012610
 Stochastic.type
 Project.mirgeom,201104, , ,201105.1424,2
-Project.T.adjust,1.4
+Project.T.adjust,1.2
 Migri.table,0.13,HC.info
 Mix,Group,N,Gas,Oil
 1,  Gas,  1,1,  0
@@ -144,6 +144,19 @@ LoadMirp,966111439,MigriAlfa-3,win.201104,201105.1425+1
 Project.T.adjust,1, ,old,201105.1428+1
 Project.T.adjust,1,1.4,use,201105.1428+1
 SaveMirp,591832329,MigriAlfa-3, ,201105.1428+1
+LoadMirp,591832329,MigriAlfa-3,win.201104,201105.1428+1
+Project.T.adjust,1,1.4,old,201105.1440+1
+Project.T.adjust,1,1.2,use,201105.1440+1
+SaveMirp,945181344,MigriAlfa-3, ,201105.1440+1
+Vsh,      5,     ,    old,    201105.1440+1
+Vsh,5,m174.irap+-0.05,use,201105.1440+1
+Vsh,5,m174.irap+-0.05,old,201105.1440+1
+Vsh,5,|m174.irap|100|/|+-0.05,use,201105.1440+1
+Vsh,5,|m174.irap|100|/|+-0.05,old,201105.1441+1
+Vsh,5,0.11+-0.05,use,201105.1441+1
+Vsh,5,0.11+-0.05,old,201105.1441+1
+Vsh,5,Vsh_100Ma_LCret_0.Ma.gri+-0.05,use,201105.1441+1
+SaveMirp,634422388,MigriAlfa-3, ,201105.1441+1
 Migri.table,0.13 ,Source.info
 Nr,Name,Prefix,Subfix,Units,Type
 1,ujur_gas,../dbs/ev_143-142-001_ref,_exp-gas.irap,g/sqcm,Gas
